@@ -1,8 +1,8 @@
 "use strict";
 
-const describeRef = require("@lerna/describe-ref");
-const ValidationError = require("@lerna/validation-error");
-const collectUncommitted = require("@lerna/collect-uncommitted");
+const describeRef = require("@puggo-org/describe-ref");
+const ValidationError = require("@puggo-org/validation-error");
+const collectUncommitted = require("@puggo-org/collect-uncommitted");
 
 module.exports = checkWorkingTree;
 module.exports.mkThrowIfUncommitted = mkThrowIfUncommitted;

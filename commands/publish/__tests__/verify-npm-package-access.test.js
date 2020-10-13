@@ -3,9 +3,9 @@
 jest.mock("@evocateur/libnpmaccess");
 
 const access = require("@evocateur/libnpmaccess");
-const { getPackages } = require("@lerna/project");
-const loggingOutput = require("@lerna-test/logging-output");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const { getPackages } = require("@puggo-org/project");
+const loggingOutput = require("@puggo-org-test/logging-output");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
 const verifyNpmPackageAccess = require("../lib/verify-npm-package-access");
 
 access.lsPackages.mockImplementation(() =>
@@ -15,7 +15,7 @@ access.lsPackages.mockImplementation(() =>
   })
 );
 
-expect.extend(require("@lerna-test/figgy-pudding-matchers"));
+expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
 
 describe("verifyNpmPackageAccess", () => {
   const origConsoleError = console.error;

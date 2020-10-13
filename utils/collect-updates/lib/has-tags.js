@@ -1,6 +1,6 @@
 "use strict";
 
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@puggo-org/child-process");
 const log = require("npmlog");
 
 module.exports = hasTags;

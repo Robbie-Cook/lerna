@@ -1,4 +1,4 @@
-# `@lerna/write-log-file`
+# `@puggo-org/write-log-file`
 
 > What lerna uses to dump logs
 

@@ -39,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.12.0](https://github.com/lerna/lerna/compare/v3.11.1...v3.12.0) (2019-02-14)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -70,7 +70,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.6](https://github.com/lerna/lerna/compare/v3.10.5...v3.10.6) (2019-01-19)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -78,7 +78,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -110,7 +110,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.4"></a>
 ## [3.1.4](https://github.com/lerna/lerna/compare/v3.1.3...v3.1.4) (2018-08-21)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -131,7 +131,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.2"></a>
 ## [3.1.2](https://github.com/lerna/lerna/compare/v3.1.1...v3.1.2) (2018-08-20)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -140,7 +140,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.1"></a>
 ## [3.1.1](https://github.com/lerna/lerna/compare/v3.1.0...v3.1.1) (2018-08-17)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -149,7 +149,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/lerna/lerna/compare/v3.0.6...v3.1.0) (2018-08-17)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -158,7 +158,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.6"></a>
 ## [3.0.6](https://github.com/lerna/lerna/compare/v3.0.5...v3.0.6) (2018-08-16)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -167,7 +167,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.5"></a>
 ## [3.0.5](https://github.com/lerna/lerna/compare/v3.0.4...v3.0.5) (2018-08-15)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -176,7 +176,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.4"></a>
 ## [3.0.4](https://github.com/lerna/lerna/compare/v3.0.3...v3.0.4) (2018-08-14)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -185,7 +185,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.3"></a>
 ## [3.0.3](https://github.com/lerna/lerna/compare/v3.0.2...v3.0.3) (2018-08-11)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.2"></a>
 ## [3.0.2](https://github.com/lerna/lerna/compare/v3.0.1...v3.0.2) (2018-08-11)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -203,7 +203,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/lerna/lerna/compare/v3.0.0...v3.0.1) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -256,7 +256,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.21"></a>
 # [3.0.0-beta.21](https://github.com/lerna/lerna/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2018-05-12)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -265,7 +265,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.20"></a>
 # [3.0.0-beta.20](https://github.com/lerna/lerna/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2018-05-07)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -274,7 +274,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.19"></a>
 # [3.0.0-beta.19](https://github.com/lerna/lerna/compare/v3.0.0-beta.18...v3.0.0-beta.19) (2018-05-03)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -303,7 +303,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.17"></a>
 # [3.0.0-beta.17](https://github.com/lerna/lerna/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2018-04-13)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -312,7 +312,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.16"></a>
 # [3.0.0-beta.16](https://github.com/lerna/lerna/compare/v3.0.0-beta.15...v3.0.0-beta.16) (2018-04-10)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -321,7 +321,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.15"></a>
 # [3.0.0-beta.15](https://github.com/lerna/lerna/compare/v3.0.0-beta.14...v3.0.0-beta.15) (2018-04-09)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -354,7 +354,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.12"></a>
 # [3.0.0-beta.12](https://github.com/lerna/lerna/compare/v3.0.0-beta.11...v3.0.0-beta.12) (2018-03-30)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -363,7 +363,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.11"></a>
 # [3.0.0-beta.11](https://github.com/lerna/lerna/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2018-03-29)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -372,7 +372,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.10"></a>
 # [3.0.0-beta.10](https://github.com/lerna/lerna/compare/v3.0.0-beta.9...v3.0.0-beta.10) (2018-03-27)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -381,7 +381,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.9"></a>
 # [3.0.0-beta.9](https://github.com/lerna/lerna/compare/v3.0.0-beta.8...v3.0.0-beta.9) (2018-03-24)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -390,7 +390,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.8"></a>
 # [3.0.0-beta.8](https://github.com/lerna/lerna/compare/v3.0.0-beta.7...v3.0.0-beta.8) (2018-03-22)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -399,7 +399,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.7"></a>
 # [3.0.0-beta.7](https://github.com/lerna/lerna/compare/v3.0.0-beta.6...v3.0.0-beta.7) (2018-03-20)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -408,7 +408,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.6"></a>
 # [3.0.0-beta.6](https://github.com/lerna/lerna/compare/v3.0.0-beta.5...v3.0.0-beta.6) (2018-03-19)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -417,7 +417,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.5"></a>
 # [3.0.0-beta.5](https://github.com/lerna/lerna/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2018-03-19)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -450,7 +450,7 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.2"></a>
 # [3.0.0-beta.2](https://github.com/lerna/lerna/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2018-03-10)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli
 
 
 
@@ -459,4 +459,4 @@ Going forward, lerna will exit non-zero _immediately_ upon encountering these er
 <a name="3.0.0-beta.1"></a>
 # [3.0.0-beta.1](https://github.com/lerna/lerna/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2018-03-09)
 
-**Note:** Version bump only for package @lerna/cli
+**Note:** Version bump only for package @puggo-org/cli

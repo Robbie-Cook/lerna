@@ -5,15 +5,15 @@ const fs = require("fs-extra");
 const globby = require("globby");
 
 // mocked modules
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@puggo-org/child-process");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const loggingOutput = require("@lerna-test/logging-output");
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const loggingOutput = require("@puggo-org-test/logging-output");
+const normalizeRelativeDir = require("@puggo-org-test/normalize-relative-dir");
 
 // file under test
-const lernaExec = require("@lerna-test/command-runner")(require("../command"));
+const lernaExec = require("@puggo-org-test/command-runner")(require("../command"));
 
 // assertion helpers
 const calledInPackages = () =>

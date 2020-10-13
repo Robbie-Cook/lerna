@@ -2,20 +2,20 @@
 
 const fs = require("fs-extra");
 const path = require("path");
-const { getPackages } = require("@lerna/project");
+const { getPackages } = require("@puggo-org/project");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitTag = require("@lerna-test/git-tag");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const gitAdd = require("@puggo-org-test/git-add");
+const gitCommit = require("@puggo-org-test/git-commit");
+const gitTag = require("@puggo-org-test/git-tag");
 
 // file under test
 const { recommendVersion, updateChangelog } = require("..");
 const getChangelogConfig = require("../lib/get-changelog-config");
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@lerna-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
 
 describe("conventional-commits", () => {
   describe("recommendVersion()", () => {

@@ -1,4 +1,4 @@
-# `@lerna/add`
+# `@puggo-org/add`
 
 > Add a dependency to matched packages
 
@@ -21,7 +21,7 @@ If no `version` specifier is provided, it defaults to the `latest` dist-tag, jus
 
 ## Options
 
-`lerna add` accepts all [filter flags](https://www.npmjs.com/package/@lerna/filter-options).
+`lerna add` accepts all [filter flags](https://www.npmjs.com/package/@puggo-org/filter-options).
 
 ### `--dev`
 

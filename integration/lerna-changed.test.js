@@ -1,9 +1,9 @@
 "use strict";
 
-const cliRunner = require("@lerna-test/cli-runner");
-const commitChangeToPackage = require("@lerna-test/commit-change-to-package");
-const gitTag = require("@lerna-test/git-tag");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const cliRunner = require("@puggo-org-test/cli-runner");
+const commitChangeToPackage = require("@puggo-org-test/commit-change-to-package");
+const gitTag = require("@puggo-org-test/git-tag");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
 
 test("includes dependents", async () => {
   const cwd = await initFixture("normal");

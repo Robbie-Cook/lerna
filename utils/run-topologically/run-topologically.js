@@ -2,7 +2,7 @@
 
 const PQueue = require("p-queue");
 const figgyPudding = require("figgy-pudding");
-const QueryGraph = require("@lerna/query-graph");
+const QueryGraph = require("@puggo-org/query-graph");
 
 module.exports = runTopologically;
 

@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@puggo-org/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -11,26 +11,26 @@ jest.mock("../lib/get-two-factor-auth-required");
 
 const fs = require("fs-extra");
 const path = require("path");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@puggo-org/child-process");
 
 // mocked modules
 const writePkg = require("write-pkg");
-const npmPublish = require("@lerna/npm-publish");
-const PromptUtilities = require("@lerna/prompt");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const npmPublish = require("@puggo-org/npm-publish");
+const PromptUtilities = require("@puggo-org/prompt");
+const checkWorkingTree = require("@puggo-org/check-working-tree");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
-const loggingOutput = require("@lerna-test/logging-output");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const gitAdd = require("@puggo-org-test/git-add");
+const gitTag = require("@puggo-org-test/git-tag");
+const gitCommit = require("@puggo-org-test/git-commit");
+const loggingOutput = require("@puggo-org-test/logging-output");
 
 // test command
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
 
 async function initTaggedFixture(fixtureName, tagVersionPrefix = "v") {
   const cwd = await initFixture(fixtureName);

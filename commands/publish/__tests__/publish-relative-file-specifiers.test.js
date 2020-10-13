@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@puggo-org/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -21,13 +21,13 @@ const path = require("path");
 const writePkg = require("write-pkg");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const gitAdd = require("@puggo-org-test/git-add");
+const gitTag = require("@puggo-org-test/git-tag");
+const gitCommit = require("@puggo-org-test/git-commit");
 
 // test command
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
 
 describe("relative 'file:' specifiers", () => {
   const setupChanges = async (cwd, pkgRoot = "packages") => {

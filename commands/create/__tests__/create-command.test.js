@@ -11,14 +11,14 @@ const slash = require("slash");
 const getManifest = require("@evocateur/pacote/manifest");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const gitAdd = require("@puggo-org-test/git-add");
 
 // file under test
-const lernaCreate = require("@lerna-test/command-runner")(require("../command"));
+const lernaCreate = require("@puggo-org-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
 
 // assertion helpers
 const addRemote = (cwd, remote = "origin", url = "git@github.com:test/test.git") =>
@@ -46,7 +46,7 @@ const manifestCreated = async cwd => {
 describe("CreateCommand", () => {
   getManifest.mockImplementation(() => Promise.resolve({ version: "1.0.0-mocked" }));
 
-  // preserve value from @lerna-test/set-npm-userconfig
+  // preserve value from @puggo-org-test/set-npm-userconfig
   const userconfig = process.env.npm_config_userconfig;
 
   afterEach(() => {

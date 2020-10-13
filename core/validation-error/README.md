@@ -1,4 +1,4 @@
-# `@lerna/validation-error`
+# `@puggo-org/validation-error`
 
 > An internal Lerna tool
 

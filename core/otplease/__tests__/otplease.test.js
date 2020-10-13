@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@lerna/prompt");
+jest.mock("@puggo-org/prompt");
 
 // mocked modules
-const prompt = require("@lerna/prompt");
+const prompt = require("@puggo-org/prompt");
 
 // file under test
 const otplease = require("..");
@@ -11,7 +11,7 @@ const otplease = require("..");
 // global mock setup
 prompt.input.mockResolvedValue("123456");
 
-describe("@lerna/otplease", () => {
+describe("@puggo-org/otplease", () => {
   const stdinIsTTY = process.stdin.isTTY;
   const stdoutIsTTY = process.stdout.isTTY;
 

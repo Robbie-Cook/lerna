@@ -13,7 +13,7 @@ module.exports = {
   ],
   modulePathIgnorePatterns: ["/__fixtures__/"],
   roots: ["<rootDir>/commands", "<rootDir>/core", "<rootDir>/utils"],
-  setupFiles: ["@lerna-test/silence-logging", "@lerna-test/set-npm-userconfig"],
+  setupFiles: ["@puggo-org-test/silence-logging", "@puggo-org-test/set-npm-userconfig"],
   setupFilesAfterEnv: ["<rootDir>/setup-unit-test-timeout.js"],
   testEnvironment: "node",
   testRunner: "jest-circus/runner",

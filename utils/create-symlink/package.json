@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/create-symlink",
+  "name": "@puggo-org/create-symlink",
   "version": "3.16.2",
   "description": "An internal Lerna tool",
   "keywords": [

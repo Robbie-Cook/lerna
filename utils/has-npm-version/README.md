@@ -1,11 +1,11 @@
-# `@lerna/has-npm-version`
+# `@puggo-org/has-npm-version`
 
 > Test if the current version of npm satisfies a given semver range
 
 ## Usage
 
 ```js
-const hasNpmVersion = require("@lerna/has-npm-version");
+const hasNpmVersion = require("@puggo-org/has-npm-version");
 
 // `npm --version` === 6.3.0
 hasNpmVersion(">=6"); // => true

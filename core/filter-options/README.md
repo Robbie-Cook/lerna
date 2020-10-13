@@ -1,4 +1,4 @@
-# `@lerna/filter-options`
+# `@puggo-org/filter-options`
 
 > Options for lerna sub-commands that need filtering
 

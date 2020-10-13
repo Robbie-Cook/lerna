@@ -1,4 +1,4 @@
-# `@lerna/collect-updates`
+# `@puggo-org/collect-updates`
 
 > An internal Lerna tool
 

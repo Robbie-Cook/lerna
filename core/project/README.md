@@ -1,4 +1,4 @@
-# `@lerna/project`
+# `@puggo-org/project`
 
 > Lerna project configuration
 

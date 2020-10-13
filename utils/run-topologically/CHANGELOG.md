@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.5](https://github.com/lerna/lerna/compare/v3.18.4...v3.18.5) (2019-11-20)
 
-**Note:** Version bump only for package @lerna/run-topologically
+**Note:** Version bump only for package @puggo-org/run-topologically
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.18.0](https://github.com/lerna/lerna/compare/v3.17.0...v3.18.0) (2019-10-15)
 
-**Note:** Version bump only for package @lerna/run-topologically
+**Note:** Version bump only for package @puggo-org/run-topologically
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.16.0](https://github.com/lerna/lerna/compare/v3.15.0...v3.16.0) (2019-07-18)
 
-**Note:** Version bump only for package @lerna/run-topologically
+**Note:** Version bump only for package @puggo-org/run-topologically
 
 
 
@@ -32,4 +32,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **run:** Extract `@lerna/run-topologically` ([3a8b175](https://github.com/lerna/lerna/commit/3a8b175))
+* **run:** Extract `@puggo-org/run-topologically` ([3a8b175](https://github.com/lerna/lerna/commit/3a8b175))

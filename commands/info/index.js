@@ -1,7 +1,7 @@
 "use strict";
 
-const Command = require("@lerna/command");
-const output = require("@lerna/output");
+const Command = require("@puggo-org/command");
+const output = require("@puggo-org/output");
 const envinfo = require("envinfo");
 
 module.exports = factory;

@@ -1,4 +1,4 @@
-# `@lerna/version`
+# `@puggo-org/version`
 
 > Bump version of packages changed since the last release
 

@@ -4,7 +4,7 @@ const execa = require("execa");
 const fs = require("fs-extra");
 const path = require("path");
 const slash = require("slash");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
 const gitAdd = require("../lib/git-add");
 
 test("relative files", async () => {

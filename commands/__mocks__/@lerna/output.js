@@ -1,12 +1,12 @@
 "use strict";
 
 const chalk = require("chalk");
-const multiLineTrimRight = require("@lerna-test/multi-line-trim-right");
+const multiLineTrimRight = require("@puggo-org-test/multi-line-trim-right");
 
 // keep snapshots stable cross-platform
 chalk.enabled = false;
 
-// @lerna/output is just a wrapper around console.log
+// @puggo-org/output is just a wrapper around console.log
 const mockOutput = jest.fn();
 
 function logged() {

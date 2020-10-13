@@ -3,10 +3,10 @@
 const fs = require("fs-extra");
 const path = require("path");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const cloneFixture = require("@lerna-test/clone-fixture")(
+const cliRunner = require("@puggo-org-test/cli-runner");
+const gitAdd = require("@puggo-org-test/git-add");
+const gitCommit = require("@puggo-org-test/git-commit");
+const cloneFixture = require("@puggo-org-test/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
 

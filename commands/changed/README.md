@@ -1,4 +1,4 @@
-# `@lerna/changed`
+# `@puggo-org/changed`
 
 > List local packages that have changed since the last tagged release
 
@@ -29,7 +29,7 @@ package-2
 - [`--toposort`](https://github.com/lerna/lerna/tree/master/commands/list#--toposort)
 - [`--graph`](https://github.com/lerna/lerna/tree/master/commands/list#--graph)
 
-Unlike `lerna ls`, however, `lerna changed` **does not** support [filter options](https://www.npmjs.com/package/@lerna/filter-options), as filtering is not supported by `lerna version` or `lerna publish`.
+Unlike `lerna ls`, however, `lerna changed` **does not** support [filter options](https://www.npmjs.com/package/@puggo-org/filter-options), as filtering is not supported by `lerna version` or `lerna publish`.
 
 `lerna changed` supports the following options of [`lerna version`](https://github.com/lerna/lerna/tree/master/commands/version#options) (the others are irrelevant):
 

@@ -1,0 +1,55 @@
+{
+  "name": "puggo",
+  "version": "3.21.0",
+  "description": "A tool for managing JavaScript projects with multiple packages.",
+  "keywords": [
+    "lerna",
+    "monorepo",
+    "multi-package",
+    "puggo"
+  ],
+  "homepage": "https://github.com/lerna/lerna#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Robbie Cook",
+    "email": "robbie@robbie.pw"
+  },
+  "bin": {
+    "lerna": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerna/lerna.git",
+    "directory": "core/lerna"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@puggo-org/add": "file:../../commands/add",
+    "@puggo-org/bootstrap": "file:../../commands/bootstrap",
+    "@puggo-org/changed": "file:../../commands/changed",
+    "@puggo-org/clean": "file:../../commands/clean",
+    "@puggo-org/cli": "file:../cli",
+    "@puggo-org/create": "file:../../commands/create",
+    "@puggo-org/diff": "file:../../commands/diff",
+    "@puggo-org/exec": "file:../../commands/exec",
+    "@puggo-org/import": "file:../../commands/import",
+    "@puggo-org/info": "file:../../commands/info",
+    "@puggo-org/init": "file:../../commands/init",
+    "@puggo-org/link": "file:../../commands/link",
+    "@puggo-org/list": "file:../../commands/list",
+    "@puggo-org/publish": "file:../../commands/publish",
+    "@puggo-org/run": "file:../../commands/run",
+    "@puggo-org/version": "file:../../commands/version",
+    "import-local": "^2.0.0",
+    "npmlog": "^4.1.2"
+  }
+}

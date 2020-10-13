@@ -1,4 +1,4 @@
-# `@lerna/create-symlink`
+# `@puggo-org/create-symlink`
 
 > An internal Lerna tool
 

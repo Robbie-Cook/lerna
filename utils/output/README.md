@@ -1,4 +1,4 @@
-# `@lerna/output`
+# `@puggo-org/output`
 
 > An internal Lerna tool
 

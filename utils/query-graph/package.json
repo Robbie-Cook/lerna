@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/query-graph",
+  "name": "@puggo-org/query-graph",
   "version": "3.18.5",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/package-graph": "file:../../core/package-graph",
+    "@puggo-org/package-graph": "file:../../core/package-graph",
     "figgy-pudding": "^3.5.1"
   }
 }

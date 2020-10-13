@@ -1,7 +1,7 @@
 "use strict";
 
 const figgyPudding = require("figgy-pudding");
-const PackageGraph = require("@lerna/package-graph");
+const PackageGraph = require("@puggo-org/package-graph");
 
 const QueryGraphConfig = figgyPudding({
   "graph-type": {},

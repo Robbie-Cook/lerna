@@ -1,4 +1,4 @@
-# `@lerna/query-graph`
+# `@puggo-org/query-graph`
 
 > An internal Lerna tool
 

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/info",
+  "name": "@puggo-org/info",
   "version": "3.21.0",
   "description": "Prints local environnment information",
   "keywords": [
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/command": "file:../../core/command",
-    "@lerna/output": "file:../../utils/output",
+    "@puggo-org/command": "file:../../core/command",
+    "@puggo-org/output": "file:../../utils/output",
     "envinfo": "^7.3.1"
   }
 }

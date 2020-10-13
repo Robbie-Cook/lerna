@@ -1,6 +1,6 @@
 "use strict";
 
-const listable = require("@lerna/listable");
+const listable = require("@puggo-org/listable");
 
 /**
  * @see https://github.com/yargs/yargs/blob/master/docs/advanced.md#providing-a-command-module

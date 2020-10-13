@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.5](https://github.com/lerna/lerna/compare/v3.18.4...v3.18.5) (2019-11-20)
 
-**Note:** Version bump only for package @lerna/listable
+**Note:** Version bump only for package @puggo-org/listable
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.4](https://github.com/lerna/lerna/compare/v3.18.3...v3.18.4) (2019-11-08)
 
-**Note:** Version bump only for package @lerna/listable
+**Note:** Version bump only for package @puggo-org/listable
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.18.0](https://github.com/lerna/lerna/compare/v3.17.0...v3.18.0) (2019-10-15)
 
-**Note:** Version bump only for package @lerna/listable
+**Note:** Version bump only for package @puggo-org/listable
 
 
 
@@ -68,7 +68,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.11.0](https://github.com/lerna/lerna/compare/v3.10.8...v3.11.0) (2019-02-08)
 
-**Note:** Version bump only for package @lerna/listable
+**Note:** Version bump only for package @puggo-org/listable
 
 
 
@@ -76,7 +76,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.6](https://github.com/lerna/lerna/compare/v3.10.5...v3.10.6) (2019-01-19)
 
-**Note:** Version bump only for package @lerna/listable
+**Note:** Version bump only for package @puggo-org/listable
 
 
 
@@ -84,7 +84,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/listable
+**Note:** Version bump only for package @puggo-org/listable
 
 
 
@@ -107,4 +107,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **list:** Extract [@lerna](https://github.com/lerna)/listable utility ([bf56018](https://github.com/lerna/lerna/commit/bf56018))
+* **list:** Extract [@puggo-org](https://github.com/lerna)/listable utility ([bf56018](https://github.com/lerna/lerna/commit/bf56018))

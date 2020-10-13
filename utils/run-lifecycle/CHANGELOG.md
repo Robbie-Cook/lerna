@@ -85,7 +85,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/run-lifecycle
+**Note:** Version bump only for package @puggo-org/run-lifecycle
 
 
 
@@ -149,7 +149,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.4.1](https://github.com/lerna/lerna/compare/v3.4.0...v3.4.1) (2018-10-04)
 
-**Note:** Version bump only for package @lerna/run-lifecycle
+**Note:** Version bump only for package @puggo-org/run-lifecycle
 
 
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/run-lifecycle
+**Note:** Version bump only for package @puggo-org/run-lifecycle
 
 
 

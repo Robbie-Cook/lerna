@@ -1,4 +1,4 @@
-# `@lerna/symlink-binary`
+# `@puggo-org/symlink-binary`
 
 > An internal Lerna tool
 

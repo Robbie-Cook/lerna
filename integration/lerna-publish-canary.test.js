@@ -2,16 +2,16 @@
 
 const path = require("path");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const commitChangeToPackage = require("@lerna-test/commit-change-to-package");
-const gitTag = require("@lerna-test/git-tag");
-const gitStatus = require("@lerna-test/git-status");
-const cloneFixture = require("@lerna-test/clone-fixture")(
+const cliRunner = require("@puggo-org-test/cli-runner");
+const commitChangeToPackage = require("@puggo-org-test/commit-change-to-package");
+const gitTag = require("@puggo-org-test/git-tag");
+const gitStatus = require("@puggo-org-test/git-status");
+const cloneFixture = require("@puggo-org-test/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@lerna-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
 
 const env = {
   // never actually upload when calling `npm publish`

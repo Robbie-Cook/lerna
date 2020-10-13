@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/pack-directory",
+  "name": "@puggo-org/pack-directory",
   "version": "3.16.4",
   "description": "Pack a directory into an npm package tarball",
   "keywords": [
@@ -27,9 +27,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/get-packed": "file:../get-packed",
-    "@lerna/package": "file:../../core/package",
-    "@lerna/run-lifecycle": "file:../run-lifecycle",
+    "@puggo-org/get-packed": "file:../get-packed",
+    "@puggo-org/package": "file:../../core/package",
+    "@puggo-org/run-lifecycle": "file:../run-lifecycle",
     "figgy-pudding": "^3.5.1",
     "npm-packlist": "^1.4.4",
     "npmlog": "^4.1.2",

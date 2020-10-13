@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/child-process",
+  "name": "@puggo-org/child-process",
   "version": "3.16.5",
   "description": "Lerna's internal child_process wrapper",
   "keywords": [

@@ -1,10 +1,10 @@
 "use strict";
 
-jest.mock("@lerna/prompt");
+jest.mock("@puggo-org/prompt");
 
 const semver = require("semver");
-const prompt = require("@lerna/prompt");
-const prereleaseIdFromVersion = require("@lerna/prerelease-id-from-version");
+const prompt = require("@puggo-org/prompt");
+const prereleaseIdFromVersion = require("@puggo-org/prerelease-id-from-version");
 const makePromptVersion = require("../lib/prompt-version");
 
 const resolvePrereleaseId = jest.fn(() => "alpha");

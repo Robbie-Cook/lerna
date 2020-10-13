@@ -1,4 +1,4 @@
-# `@lerna/npm-install`
+# `@puggo-org/npm-install`
 
 > An internal Lerna tool
 

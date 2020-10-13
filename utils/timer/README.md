@@ -1,4 +1,4 @@
-# `@lerna/timer`
+# `@puggo-org/timer`
 
 > An internal Lerna tool
 

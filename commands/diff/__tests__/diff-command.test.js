@@ -3,23 +3,23 @@
 const execa = require("execa");
 const fs = require("fs-extra");
 const path = require("path");
-const { getPackages } = require("@lerna/project");
+const { getPackages } = require("@puggo-org/project");
 
 // mocked modules
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@puggo-org/child-process");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitInit = require("@lerna-test/git-init");
-const gitTag = require("@lerna-test/git-tag");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const gitAdd = require("@puggo-org-test/git-add");
+const gitCommit = require("@puggo-org-test/git-commit");
+const gitInit = require("@puggo-org-test/git-init");
+const gitTag = require("@puggo-org-test/git-tag");
 
 // file under test
-const lernaDiff = require("@lerna-test/command-runner")(require("../command"));
+const lernaDiff = require("@puggo-org-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
 
 describe("DiffCommand", () => {
   // overwrite spawn so we get piped stdout, not inherited

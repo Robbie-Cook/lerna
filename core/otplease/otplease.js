@@ -1,7 +1,7 @@
 "use strict";
 
 const figgyPudding = require("figgy-pudding");
-const prompt = require("@lerna/prompt");
+const prompt = require("@puggo-org/prompt");
 
 const OtpPleaseConfig = figgyPudding({
   otp: {},

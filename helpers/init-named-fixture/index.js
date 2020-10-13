@@ -3,10 +3,10 @@
 const path = require("path");
 const fs = require("fs-extra");
 const tempy = require("tempy");
-const copyFixture = require("@lerna-test/copy-fixture");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitInit = require("@lerna-test/git-init");
+const copyFixture = require("@puggo-org-test/copy-fixture");
+const gitAdd = require("@puggo-org-test/git-add");
+const gitCommit = require("@puggo-org-test/git-commit");
+const gitInit = require("@puggo-org-test/git-init");
 
 module.exports = initNamedFixture;
 

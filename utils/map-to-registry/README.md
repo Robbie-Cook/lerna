@@ -1,4 +1,4 @@
-# `@lerna/map-to-registry`
+# `@puggo-org/map-to-registry`
 
 > Produce registry uri and auth of package name from npm config
 
@@ -9,8 +9,8 @@ This is an extraction of an internal npm [utility](https://github.com/npm/npm/bl
 ```js
 "use strict";
 
-const mapToRegistry = require("@lerna/map-to-registry");
-const npmConf = require("@lerna/npm-conf");
+const mapToRegistry = require("@puggo-org/map-to-registry");
+const npmConf = require("@puggo-org/npm-conf");
 
 const config = npmConf();
 const { uri, auth } = mapToRegistry("my-package", config);

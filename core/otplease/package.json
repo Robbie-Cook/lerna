@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/otplease",
+  "name": "@puggo-org/otplease",
   "version": "3.18.5",
   "description": "Prompt for OTP when wrapped Promise fails",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/prompt": "file:../prompt",
+    "@puggo-org/prompt": "file:../prompt",
     "figgy-pudding": "^3.5.1"
   }
 }

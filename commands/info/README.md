@@ -1,4 +1,4 @@
-# `@lerna/info`
+# `@puggo-org/info`
 
 > Print local environment information
 

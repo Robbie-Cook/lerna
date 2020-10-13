@@ -1,11 +1,11 @@
 {
-  "name": "@lerna-test/command-runner",
+  "name": "@puggo-org-test/command-runner",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@lerna/cli": "file:../../core/cli"
+    "@puggo-org/cli": "file:../../core/cli"
   }
 }

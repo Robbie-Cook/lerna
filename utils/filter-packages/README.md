@@ -1,4 +1,4 @@
-# `@lerna/filter-packages`
+# `@puggo-org/filter-packages`
 
 > An internal Lerna tool
 

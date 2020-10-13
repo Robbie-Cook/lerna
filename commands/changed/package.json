@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/changed",
+  "name": "@puggo-org/changed",
   "version": "3.21.0",
   "description": "List local packages that have changed since the last tagged release",
   "keywords": [
@@ -32,9 +32,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/collect-updates": "file:../../utils/collect-updates",
-    "@lerna/command": "file:../../core/command",
-    "@lerna/listable": "file:../../utils/listable",
-    "@lerna/output": "file:../../utils/output"
+    "@puggo-org/collect-updates": "file:../../utils/collect-updates",
+    "@puggo-org/command": "file:../../core/command",
+    "@puggo-org/listable": "file:../../utils/listable",
+    "@puggo-org/output": "file:../../utils/output"
   }
 }

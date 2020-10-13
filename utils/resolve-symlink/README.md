@@ -1,4 +1,4 @@
-# `@lerna/resolve-symlink`
+# `@puggo-org/resolve-symlink`
 
 > An internal Lerna tool
 

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/profiler",
+  "name": "@puggo-org/profiler",
   "version": "3.20.0",
   "description": "An internal Lerna tool",
   "keywords": [

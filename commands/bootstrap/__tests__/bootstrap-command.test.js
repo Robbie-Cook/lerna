@@ -1,27 +1,27 @@
 "use strict";
 
-jest.mock("@lerna/rimraf-dir");
-jest.mock("@lerna/npm-install");
-jest.mock("@lerna/run-lifecycle");
-jest.mock("@lerna/create-symlink");
+jest.mock("@puggo-org/rimraf-dir");
+jest.mock("@puggo-org/npm-install");
+jest.mock("@puggo-org/run-lifecycle");
+jest.mock("@puggo-org/create-symlink");
 
 const fs = require("fs-extra");
 const path = require("path");
 
 // mocked or stubbed modules
-const rimrafDir = require("@lerna/rimraf-dir");
-const npmInstall = require("@lerna/npm-install");
-const runLifecycle = require("@lerna/run-lifecycle");
-const createSymlink = require("@lerna/create-symlink");
-const hasNpmVersion = require("@lerna/has-npm-version");
+const rimrafDir = require("@puggo-org/rimraf-dir");
+const npmInstall = require("@puggo-org/npm-install");
+const runLifecycle = require("@puggo-org/run-lifecycle");
+const createSymlink = require("@puggo-org/create-symlink");
+const hasNpmVersion = require("@puggo-org/has-npm-version");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
-const updateLernaConfig = require("@lerna-test/update-lerna-config");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const normalizeRelativeDir = require("@puggo-org-test/normalize-relative-dir");
+const updateLernaConfig = require("@puggo-org-test/update-lerna-config");
 
 // file under test
-const lernaBootstrap = require("@lerna-test/command-runner")(require("../command"));
+const lernaBootstrap = require("@puggo-org-test/command-runner")(require("../command"));
 
 // assertion helpers
 const installedPackagesInDirectories = testDir =>

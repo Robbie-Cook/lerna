@@ -1,6 +1,6 @@
 "use strict";
 
-const Package = require("@lerna/package");
+const Package = require("@puggo-org/package");
 
 // file under test
 const PackageGraph = require("..");

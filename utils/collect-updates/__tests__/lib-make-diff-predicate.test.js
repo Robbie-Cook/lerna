@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@lerna/child-process");
+jest.mock("@puggo-org/child-process");
 
 // mocked modules
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@puggo-org/child-process");
 
 // file under test
 const makeDiffPredicate = require("../lib/make-diff-predicate");

@@ -1,4 +1,4 @@
-# `@lerna/npm-dist-tag`
+# `@puggo-org/npm-dist-tag`
 
 > An internal Lerna tool
 

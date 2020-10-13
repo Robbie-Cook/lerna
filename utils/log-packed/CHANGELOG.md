@@ -66,4 +66,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Add [@lerna](https://github.com/lerna)/log-packed module, extracted from npm ([9c767ac](https://github.com/lerna/lerna/commit/9c767ac))
+* Add [@puggo-org](https://github.com/lerna)/log-packed module, extracted from npm ([9c767ac](https://github.com/lerna/lerna/commit/9c767ac))

@@ -1,4 +1,4 @@
-# `@lerna/npm-conf`
+# `@puggo-org/npm-conf`
 
 > Vendored npm-conf with updates
 

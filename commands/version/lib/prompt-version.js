@@ -1,7 +1,7 @@
 "use strict";
 
 const semver = require("semver");
-const PromptUtilities = require("@lerna/prompt");
+const PromptUtilities = require("@puggo-org/prompt");
 
 module.exports = makePromptVersion;
 

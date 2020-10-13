@@ -3,9 +3,9 @@
 module.exports = {
   modulePathIgnorePatterns: ["/__fixtures__/"],
   roots: ["<rootDir>/integration"],
-  setupFiles: ["@lerna-test/set-npm-userconfig"],
+  setupFiles: ["@puggo-org-test/set-npm-userconfig"],
   setupFilesAfterEnv: ["<rootDir>/setup-integration-timeout.js"],
-  snapshotSerializers: ["@lerna-test/serialize-placeholders"],
+  snapshotSerializers: ["@puggo-org-test/serialize-placeholders"],
   testEnvironment: "node",
   testRunner: "jest-circus/runner",
   verbose: true,

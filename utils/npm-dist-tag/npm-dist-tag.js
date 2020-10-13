@@ -4,7 +4,7 @@ const log = require("npmlog");
 const npa = require("npm-package-arg");
 const fetch = require("@evocateur/npm-registry-fetch");
 const figgyPudding = require("figgy-pudding");
-const otplease = require("@lerna/otplease");
+const otplease = require("@puggo-org/otplease");
 
 exports.add = add;
 exports.remove = remove;

@@ -7,9 +7,9 @@ const { publish } = require("@evocateur/libnpmpublish");
 const pify = require("pify");
 const readJSON = require("read-package-json");
 const figgyPudding = require("figgy-pudding");
-const runLifecycle = require("@lerna/run-lifecycle");
+const runLifecycle = require("@puggo-org/run-lifecycle");
 const npa = require("npm-package-arg");
-const otplease = require("@lerna/otplease");
+const otplease = require("@puggo-org/otplease");
 
 module.exports = npmPublish;
 

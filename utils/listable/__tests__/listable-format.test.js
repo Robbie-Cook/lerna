@@ -4,8 +4,8 @@ const chalk = require("chalk");
 const tempy = require("tempy");
 const Tacks = require("tacks");
 
-const Project = require("@lerna/project");
-const loggingOutput = require("@lerna-test/logging-output");
+const Project = require("@puggo-org/project");
+const loggingOutput = require("@puggo-org-test/logging-output");
 const listable = require("..");
 
 const { File, Dir } = Tacks;
@@ -25,8 +25,8 @@ expect.addSnapshotSerializer({
 });
 
 // normalize temp directory paths in snapshots
-expect.addSnapshotSerializer(require("@lerna-test/serialize-windows-paths"));
-expect.addSnapshotSerializer(require("@lerna-test/serialize-tempdir"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-windows-paths"));
+expect.addSnapshotSerializer(require("@puggo-org-test/serialize-tempdir"));
 
 describe("listable.format()", () => {
   let packages;

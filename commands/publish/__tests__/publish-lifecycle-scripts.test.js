@@ -12,16 +12,16 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked modules
-const packDirectory = require("@lerna/pack-directory");
-const runLifecycle = require("@lerna/run-lifecycle");
+const packDirectory = require("@puggo-org/pack-directory");
+const runLifecycle = require("@puggo-org/run-lifecycle");
 const loadJsonFile = require("load-json-file");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
 const path = require("path");
 
 // test command
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
 
 describe("lifecycle scripts", () => {
   const npmLifecycleEvent = process.env.npm_lifecycle_event;

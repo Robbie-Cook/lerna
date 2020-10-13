@@ -1,7 +1,7 @@
 "use strict";
 
-const cliRunner = require("@lerna-test/cli-runner");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const cliRunner = require("@puggo-org-test/cli-runner");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
 
 // ls never makes changes to repo, so we only need one fixture + runner
 let lerna;

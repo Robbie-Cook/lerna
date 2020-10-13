@@ -3,7 +3,7 @@
 // windows sucks
 jest.mock("has-unicode", () => () => false);
 
-const loggingOutput = require("@lerna-test/logging-output");
+const loggingOutput = require("@puggo-org-test/logging-output");
 const logPacked = require("../lib/log-packed");
 
 // remove quotes around top-level strings
@@ -60,7 +60,7 @@ const fixture = [
   },
 ];
 
-describe("@lerna/log-packed", () => {
+describe("@puggo-org/log-packed", () => {
   it("logs tarball contents from json", () => {
     fixture.forEach(logPacked);
 

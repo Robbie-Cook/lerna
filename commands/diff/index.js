@@ -1,8 +1,8 @@
 "use strict";
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const Command = require("@lerna/command");
-const ValidationError = require("@lerna/validation-error");
+const ChildProcessUtilities = require("@puggo-org/child-process");
+const Command = require("@puggo-org/command");
+const ValidationError = require("@puggo-org/validation-error");
 const getLastCommit = require("./lib/get-last-commit");
 const hasCommit = require("./lib/has-commit");
 

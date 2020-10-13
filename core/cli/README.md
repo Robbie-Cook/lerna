@@ -1,4 +1,4 @@
-# `@lerna/cli`
+# `@puggo-org/cli`
 
 > Lerna's CLI
 

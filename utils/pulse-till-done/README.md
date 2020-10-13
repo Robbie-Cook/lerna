@@ -1,4 +1,4 @@
-# `@lerna/pulse-till-done`
+# `@puggo-org/pulse-till-done`
 
 > An internal Lerna tool
 

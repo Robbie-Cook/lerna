@@ -3,11 +3,11 @@
 const path = require("path");
 const pMap = require("p-map");
 
-const Command = require("@lerna/command");
-const rimrafDir = require("@lerna/rimraf-dir");
-const PromptUtilities = require("@lerna/prompt");
-const { getFilteredPackages } = require("@lerna/filter-options");
-const pulseTillDone = require("@lerna/pulse-till-done");
+const Command = require("@puggo-org/command");
+const rimrafDir = require("@puggo-org/rimraf-dir");
+const PromptUtilities = require("@puggo-org/prompt");
+const { getFilteredPackages } = require("@puggo-org/filter-options");
+const pulseTillDone = require("@puggo-org/pulse-till-done");
 
 module.exports = factory;
 

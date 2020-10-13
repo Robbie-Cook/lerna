@@ -1,4 +1,4 @@
-# `@lerna/get-packed`
+# `@puggo-org/get-packed`
 
 > Read contents of package tarball created by npm pack
 

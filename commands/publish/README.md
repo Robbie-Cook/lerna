@@ -1,4 +1,4 @@
-# `@lerna/publish`
+# `@puggo-org/publish`
 
 > Publish packages in the current project
 

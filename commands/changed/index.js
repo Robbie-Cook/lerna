@@ -1,9 +1,9 @@
 "use strict";
 
-const Command = require("@lerna/command");
-const collectUpdates = require("@lerna/collect-updates");
-const listable = require("@lerna/listable");
-const output = require("@lerna/output");
+const Command = require("@puggo-org/command");
+const collectUpdates = require("@puggo-org/collect-updates");
+const listable = require("@puggo-org/listable");
+const output = require("@puggo-org/output");
 
 module.exports = factory;
 

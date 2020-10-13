@@ -2,14 +2,14 @@
 
 const pMap = require("p-map");
 
-const Command = require("@lerna/command");
-const npmRunScript = require("@lerna/npm-run-script");
-const output = require("@lerna/output");
-const Profiler = require("@lerna/profiler");
-const timer = require("@lerna/timer");
-const runTopologically = require("@lerna/run-topologically");
-const ValidationError = require("@lerna/validation-error");
-const { getFilteredPackages } = require("@lerna/filter-options");
+const Command = require("@puggo-org/command");
+const npmRunScript = require("@puggo-org/npm-run-script");
+const output = require("@puggo-org/output");
+const Profiler = require("@puggo-org/profiler");
+const timer = require("@puggo-org/timer");
+const runTopologically = require("@puggo-org/run-topologically");
+const ValidationError = require("@puggo-org/validation-error");
+const { getFilteredPackages } = require("@puggo-org/filter-options");
 
 module.exports = factory;
 

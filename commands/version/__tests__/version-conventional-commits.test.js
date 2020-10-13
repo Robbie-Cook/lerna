@@ -11,15 +11,15 @@ const semver = require("semver");
 
 // mocked modules
 const writePkg = require("write-pkg");
-const collectUpdates = require("@lerna/collect-updates");
-const ConventionalCommitUtilities = require("@lerna/conventional-commits");
+const collectUpdates = require("@puggo-org/collect-updates");
+const ConventionalCommitUtilities = require("@puggo-org/conventional-commits");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const showCommit = require("@lerna-test/show-commit");
+const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const showCommit = require("@puggo-org-test/show-commit");
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
 
 describe("--conventional-commits", () => {
   describe("independent", () => {

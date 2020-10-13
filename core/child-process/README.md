@@ -1,4 +1,4 @@
-# `@lerna/child-process`
+# `@puggo-org/child-process`
 
 > Lerna's internal child_process wrapper
 

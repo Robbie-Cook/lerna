@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.5](https://github.com/lerna/lerna/compare/v3.16.4...v3.16.5) (2019-10-07)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.13.3](https://github.com/lerna/lerna/compare/v3.13.2...v3.13.3) (2019-04-17)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -73,7 +73,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/lerna/lerna/compare/v3.2.1...v3.3.0) (2018-09-06)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -82,7 +82,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -91,7 +91,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-rc.0"></a>
 # [3.0.0-rc.0](https://github.com/lerna/lerna/compare/v3.0.0-beta.21...v3.0.0-rc.0) (2018-07-27)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -100,7 +100,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.21"></a>
 # [3.0.0-beta.21](https://github.com/lerna/lerna/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2018-05-12)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -109,7 +109,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.20"></a>
 # [3.0.0-beta.20](https://github.com/lerna/lerna/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2018-05-07)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -118,7 +118,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.13"></a>
 # [3.0.0-beta.13](https://github.com/lerna/lerna/compare/v3.0.0-beta.12...v3.0.0-beta.13) (2018-03-31)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -127,7 +127,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.12"></a>
 # [3.0.0-beta.12](https://github.com/lerna/lerna/compare/v3.0.0-beta.11...v3.0.0-beta.12) (2018-03-30)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -136,7 +136,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.11"></a>
 # [3.0.0-beta.11](https://github.com/lerna/lerna/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2018-03-29)
 
-**Note:** Version bump only for package @lerna/rimraf-dir
+**Note:** Version bump only for package @puggo-org/rimraf-dir
 
 
 
@@ -148,4 +148,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Rename @lerna/fs-utils => @lerna/rimraf-dir ([30451ed](https://github.com/lerna/lerna/commit/30451ed))
+* Rename @puggo-org/fs-utils => @puggo-org/rimraf-dir ([30451ed](https://github.com/lerna/lerna/commit/30451ed))

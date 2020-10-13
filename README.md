@@ -1,14 +1,7 @@
-<p align="center">
-  <img alt="Lerna" src="https://user-images.githubusercontent.com/645641/79596653-38f81200-80e1-11ea-98cd-1c6a3bb5de51.png" width="480">
-</p>
+# Puggo
 
-<p align="center">
-  A tool for managing JavaScript projects with multiple packages.
-</p>
+> A fork of [puggo](https://github.com/puggo/puggo).
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/lerna"><img alt="NPM Status" src="https://img.shields.io/npm/v/lerna.svg?style=flat"></a>
-  <a href="https://travis-ci.org/lerna/lerna"><img alt="Travis Status" src="https://img.shields.io/travis/lerna/lerna/master.svg?style=flat&label=travis"></a>
 </p>
 
 - [About](#about)
@@ -16,21 +9,21 @@
 - [How It Works](#how-it-works)
 - [Troubleshooting](#troubleshooting)
 - Commands
-  - [`lerna publish`](./commands/publish#readme)
-  - [`lerna version`](./commands/version#readme)
-  - [`lerna bootstrap`](./commands/bootstrap#readme)
-  - [`lerna list`](./commands/list#readme)
-  - [`lerna changed`](./commands/changed#readme)
-  - [`lerna diff`](./commands/diff#readme)
-  - [`lerna exec`](./commands/exec#readme)
-  - [`lerna run`](./commands/run#readme)
-  - [`lerna init`](./commands/init#readme)
-  - [`lerna add`](./commands/add#readme)
-  - [`lerna clean`](./commands/clean#readme)
-  - [`lerna import`](./commands/import#readme)
-  - [`lerna link`](./commands/link#readme)
-  - [`lerna create`](./commands/create#readme)
-  - [`lerna info`](./commands/info#readme)
+  - [`puggo publish`](./commands/publish#readme)
+  - [`puggo version`](./commands/version#readme)
+  - [`puggo bootstrap`](./commands/bootstrap#readme)
+  - [`puggo list`](./commands/list#readme)
+  - [`puggo changed`](./commands/changed#readme)
+  - [`puggo diff`](./commands/diff#readme)
+  - [`puggo exec`](./commands/exec#readme)
+  - [`puggo run`](./commands/run#readme)
+  - [`puggo init`](./commands/init#readme)
+  - [`puggo add`](./commands/add#readme)
+  - [`puggo clean`](./commands/clean#readme)
+  - [`puggo import`](./commands/import#readme)
+  - [`puggo link`](./commands/link#readme)
+  - [`puggo create`](./commands/create#readme)
+  - [`puggo info`](./commands/info#readme)
 - [Concepts](#concepts)
 - [Lerna.json](#lernajson)
 - [Global Flags](./core/global-options)
@@ -48,20 +41,20 @@ codebases into multi-package repositories (sometimes called [monorepos](https://
 [Ember](https://github.com/emberjs/ember.js/tree/master/packages), [Meteor](https://github.com/meteor/meteor/tree/devel/packages), [Jest](https://github.com/facebook/jest/tree/master/packages), and many others develop all of their packages within a
 single repository.
 
-**Lerna is a tool that optimizes the workflow around managing multi-package
+**Puggo is a tool that optimizes the workflow around managing multi-package
 repositories with git and npm.**
 
-Lerna can also reduce the time and space requirements for numerous
+Puggo can also reduce the time and space requirements for numerous
 copies of packages in development and build environments - normally a
 downside of dividing a project into many separate NPM packages. See the
 [hoist documentation](doc/hoist.md) for details.
 
-### What does a Lerna repo look like?
+### What does a Puggo repo look like?
 
 There's actually very little to it. You have a file structure that looks like this:
 
 ```
-my-lerna-repo/
+my-Puggo-repo/
   package.json
   packages/
     package-1/
@@ -70,33 +63,29 @@ my-lerna-repo/
       package.json
 ```
 
-### What can Lerna do?
+### What can Puggo do?
 
-The two primary commands in Lerna are `lerna bootstrap` and `lerna publish`.
+The two primary commands in Puggo are `puggo bootstrap` and `puggo publish`.
 
 `bootstrap` will link dependencies in the repo together.
 `publish` will help publish any updated packages.
 
-### What can't Lerna do?
-
-Lerna is not a deployment tool for serverless monorepos. Hoisting might be incompatible with traditional serverless monorepo deployment techniques.
-
 ## Getting Started
 
-> The instructions below are for Lerna 3.x.
-> We recommend using it instead of 2.x for a new Lerna project.
+> The instructions below are for Puggo 3.x.
+> We recommend using it instead of 2.x for a new Puggo project.
 
-Let's start by installing Lerna as a dev dependency of your project with [npm](https://www.npmjs.com/).
+Let's start by installing Puggo as a dev dependency of your project with [npm](https://www.npmjs.com/).
 
 ```sh
-$ mkdir lerna-repo && cd $_
-$ npx lerna init
+$ mkdir puggo-repo && cd $_
+$ npx puggo init
 ```
 
 This will create a `lerna.json` configuration file as well as a `packages` folder, so your folder should now look like this:
 
 ```
-lerna-repo/
+puggo-repo/
   packages/
   package.json
   lerna.json
@@ -104,23 +93,23 @@ lerna-repo/
 
 ## How It Works
 
-Lerna allows you to manage your project using one of two modes: Fixed or Independent.
+Puggo allows you to manage your project using one of two modes: Fixed or Independent.
 
 ### Fixed/Locked mode (default)
 
-Fixed mode Lerna projects operate on a single version line. The version is kept in the `lerna.json` file at the root of your project under the `version` key. When you run `lerna publish`, if a module has been updated since the last time a release was made, it will be updated to the new version you're releasing. This means that you only publish a new version of a package when you need to.
+Fixed mode Puggo projects operate on a single version line. The version is kept in the `lerna.json` file at the root of your project under the `version` key. When you run `puggo publish`, if a module has been updated since the last time a release was made, it will be updated to the new version you're releasing. This means that you only publish a new version of a package when you need to.
 
-> Note: If you have a major version zero, all updates are [considered breaking](https://semver.org/#spec-item-4). Because of that, running `lerna publish` with a major version zero and choosing any non-prerelease version number will cause new versions to be published for all packages, even if not all packages have changed since the last release.
+> Note: If you have a major version zero, all updates are [considered breaking](https://semver.org/#spec-item-4). Because of that, running `puggo publish` with a major version zero and choosing any non-prerelease version number will cause new versions to be published for all packages, even if not all packages have changed since the last release.
 
 This is the mode that [Babel](https://github.com/babel/babel) is currently using. Use this if you want to automatically tie all package versions together. One issue with this approach is that a major change in any package will result in all packages having a new major version.
 
 ### Independent mode
 
-`lerna init --independent`
+`puggo init --independent`
 
-Independent mode Lerna projects allows maintainers to increment package versions independently of each other. Each time you publish, you will get a prompt for each package that has changed to specify if it's a patch, minor, major or custom change.
+Independent mode Puggo projects allows maintainers to increment package versions independently of each other. Each time you publish, you will get a prompt for each package that has changed to specify if it's a patch, minor, major or custom change.
 
-Independent mode allows you to more specifically update versions for each package and makes sense for a group of components. Combining this mode with something like [semantic-release](https://github.com/semantic-release/semantic-release) would make it less painful. (There is work on this already at [atlassian/lerna-semantic-release](https://github.com/atlassian/lerna-semantic-release)).
+Independent mode allows you to more specifically update versions for each package and makes sense for a group of components. Combining this mode with something like [semantic-release](https://github.com/semantic-release/semantic-release) would make it less painful.
 
 > Set the `version` key in `lerna.json` to `independent` to run in independent mode.
 
@@ -135,11 +124,11 @@ See [FAQ.md](FAQ.md).
 
 ## Concepts
 
-Lerna will log to a `lerna-debug.log` file (same as `npm-debug.log`) when it encounters an error running a command.
+Puggo will log to a `lerna-debug.log` file (same as `npm-debug.log`) when it encounters an error running a command.
 
-Lerna also has support for [scoped packages](https://docs.npmjs.com/misc/scope).
+Puggo also has support for [scoped packages](https://docs.npmjs.com/misc/scope).
 
-Run `lerna --help` to see all available commands and options.
+Run `puggo --help` to see all available commands and options.
 
 ### lerna.json
 
@@ -164,8 +153,8 @@ Run `lerna --help` to see all available commands and options.
 
 - `version`: the current version of the repository.
 - `npmClient`: an option to specify a specific client to run commands with (this can also be specified on a per command basis). Change to `"yarn"` to run all commands with yarn. Defaults to "npm".
-- `command.publish.ignoreChanges`: an array of globs that won't be included in `lerna changed/publish`. Use this to prevent publishing a new version unnecessarily for changes, such as fixing a `README.md` typo.
-- `command.publish.message`: a custom commit message when performing version updates for publication. See [@lerna/version](commands/version#--message-msg) for more details.
+- `command.publish.ignoreChanges`: an array of globs that won't be included in `puggo changed/publish`. Use this to prevent publishing a new version unnecessarily for changes, such as fixing a `README.md` typo.
+- `command.publish.message`: a custom commit message when performing version updates for publication.
 - `command.publish.registry`: use it to set a custom registry url to publish to instead of
   npmjs.org, you must already be authenticated if required.
 - `command.bootstrap.ignore`: an array of globs that won't be bootstrapped when running the `lerna bootstrap` command.
@@ -173,9 +162,9 @@ Run `lerna --help` to see all available commands and options.
 - `command.bootstrap.scope`: an array of globs that restricts which packages will be bootstrapped when running the `lerna bootstrap` command.
 - `packages`: Array of globs to use as package locations.
 
-The packages config in `lerna.json` is a list of globs that match directories containing a `package.json`, which is how lerna recognizes "leaf" packages (vs the "root" `package.json`, which is intended to manage the dev dependencies and scripts for the entire repo).
+The packages config in `lerna.json` is a list of globs that match directories containing a `package.json`, which is how Puggo recognizes "leaf" packages (vs the "root" `package.json`, which is intended to manage the dev dependencies and scripts for the entire repo).
 
-By default, lerna initializes the packages list as `["packages/*"]`, but you can also use another directory such as `["modules/*"]`, or `["package1", "package2"]`. The globs defined are relative to the directory that `lerna.json` lives in, which is usually the repository root. The only restriction is that you can't directly nest package locations, but this is a restriction shared by "normal" npm packages as well.
+By default, Puggo initializes the packages list as `["packages/*"]`, but you can also use another directory such as `["modules/*"]`, or `["package1", "package2"]`. The globs defined are relative to the directory that `lerna.json` lives in, which is usually the repository root. The only restriction is that you can't directly nest package locations, but this is a restriction shared by "normal" npm packages as well.
 
 For example, `["packages/*", "src/**"]` matches this tree:
 
@@ -210,17 +199,11 @@ src/
         └── package.json
 ```
 
-Locating leaf packages under `packages/*` is considered a "best-practice", but is not a requirement for using Lerna.
-
-#### Legacy Fields
-
-Some `lerna.json` fields are no longer in use. Those of note include:
-
-- `lerna`: originally used to indicate the current version of Lerna. [Made obsolete](https://github.com/lerna/lerna/pull/1122) and [removed](https://github.com/lerna/lerna/pull/1225) in v3
+Locating leaf packages under `packages/*` is considered a "best-practice", but is not a requirement for using Puggo.
 
 ### Common `devDependencies`
 
-Most `devDependencies` can be pulled up to the root of a Lerna repo with `lerna link convert`
+Most `devDependencies` can be pulled up to the root of a Puggo repo with `puggo link convert`
 
 The above command will automatically hoist things and use relative `file:` specifiers.
 
@@ -235,7 +218,7 @@ Note that `devDependencies` providing "binary" executables that are used by
 npm scripts still need to be installed directly in each package where they're
 used.
 
-For example the `nsp` dependency is necessary in this case for `lerna run nsp`
+For example the `nsp` dependency is necessary in this case for `puggo run nsp`
 (and `npm run nsp` within the package's directory) to work correctly:
 
 ```json
@@ -251,10 +234,10 @@ For example the `nsp` dependency is necessary in this case for `lerna run nsp`
 
 ### Git Hosted Dependencies
 
-Lerna allows target versions of local dependent packages to be written as a [git remote url](https://docs.npmjs.com/cli/install) with a `committish` (e.g., `#v1.0.0` or `#semver:^1.0.0`) instead of the normal numeric version range.
+Puggo allows target versions of local dependent packages to be written as a [git remote url](https://docs.npmjs.com/cli/install) with a `committish` (e.g., `#v1.0.0` or `#semver:^1.0.0`) instead of the normal numeric version range.
 This allows packages to be distributed via git repositories when packages must be private and a [private npm registry is not desired](https://www.dotconferences.com/2016/05/fabien-potencier-monolithic-repositories-vs-many-repositories).
 
-Please note that lerna does _not_ perform the actual splitting of git history into the separate read-only repositories. This is the responsibility of the user. (See [this comment](https://github.com/lerna/lerna/pull/1033#issuecomment-335894690) for implementation details)
+Please note that Puggo does _not_ perform the actual splitting of git history into the separate read-only repositories. This is the responsibility of the user. (See [this comment](https://github.com/lerna/lerna/pull/1033#issuecomment-335894690) for implementation details)
 
 ```
 // packages/pkg-1/package.json
@@ -275,19 +258,5 @@ Please note that lerna does _not_ perform the actual splitting of git history in
 
 In the example above,
 
-- `lerna bootstrap` will properly symlink `pkg-2` into `pkg-1`.
-- `lerna publish` will update the committish (`#v1.0.0`) in `pkg-1` when `pkg-2` changes.
-
-### README Badge
-
-Using Lerna? Add a README badge to show it off: [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-
-```
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-```
-
-### Wizard
-
-If you prefer some guidance for cli (in case you're about to start using lerna or introducing it to a new team), you might like [lerna-wizard](https://github.com/szarouski/lerna-wizard). It will lead you through a series of well-defined steps:
-
-![lerna-wizard demo image](https://raw.githubusercontent.com/szarouski/lerna-wizard/2e269fb5a3af7100397a1f874cea3fa78089486e/demo.png)
+- `puggo bootstrap` will properly symlink `pkg-2` into `pkg-1`.
+- `puggo publish` will update the committish (`#v1.0.0`) in `pkg-1` when `pkg-2` changes.

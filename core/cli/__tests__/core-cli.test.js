@@ -1,8 +1,8 @@
 "use strict";
 
-const ValidationError = require("@lerna/validation-error");
-const loggingOutput = require("@lerna-test/logging-output");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const ValidationError = require("@puggo-org/validation-error");
+const loggingOutput = require("@puggo-org-test/logging-output");
+const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
 const coreCLI = require("..");
 
 function prepare(cwd) {

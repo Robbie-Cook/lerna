@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/update-lerna-config",
+  "name": "@puggo-org-test/update-lerna-config",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

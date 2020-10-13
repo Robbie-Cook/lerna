@@ -1,6 +1,6 @@
 "use strict";
 
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@puggo-org/validation-error");
 const FetchConfig = require("./fetch-config");
 const getProfileData = require("./get-profile-data");
 

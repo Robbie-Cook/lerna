@@ -1,11 +1,11 @@
-# `@lerna/describe-ref`
+# `@puggo-org/describe-ref`
 
 > Parse [git describe][] output for lerna-related tags
 
 ## Usage
 
 ```js
-const describe = require("@lerna/describe-ref");
+const describe = require("@puggo-org/describe-ref");
 
 (async () => {
   const { lastTagName, lastVersion, refCount, sha, isDirty } = await describe();

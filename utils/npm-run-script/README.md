@@ -1,4 +1,4 @@
-# `@lerna/npm-run-script`
+# `@puggo-org/npm-run-script`
 
 > An internal Lerna tool
 

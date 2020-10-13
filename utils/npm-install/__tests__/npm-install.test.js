@@ -2,17 +2,17 @@
 
 jest.mock("fs-extra");
 // write-pkg mocked manually
-jest.mock("@lerna/child-process");
+jest.mock("@puggo-org/child-process");
 
 const path = require("path");
 
 // mocked modules
 const fs = require("fs-extra");
 const writePkg = require("write-pkg");
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@puggo-org/child-process");
 
 // helpers
-const Package = require("@lerna/package");
+const Package = require("@puggo-org/package");
 
 // file under test
 const npmInstall = require("..");

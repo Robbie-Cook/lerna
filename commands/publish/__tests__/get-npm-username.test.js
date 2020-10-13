@@ -3,12 +3,12 @@
 jest.mock("@evocateur/npm-registry-fetch");
 
 const fetch = require("@evocateur/npm-registry-fetch");
-const loggingOutput = require("@lerna-test/logging-output");
+const loggingOutput = require("@puggo-org-test/logging-output");
 const getNpmUsername = require("../lib/get-npm-username");
 
 fetch.json.mockImplementation(() => Promise.resolve({ username: "lerna-test" }));
 
-expect.extend(require("@lerna-test/figgy-pudding-matchers"));
+expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
 
 describe("getNpmUsername", () => {
   const origConsoleError = console.error;

@@ -1,4 +1,4 @@
-# `@lerna/import`
+# `@puggo-org/import`
 
 > Import a package into the monorepo with commit history
 
