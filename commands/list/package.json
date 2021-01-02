@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/list",
+  "name": "@pubbo/list",
   "version": "3.21.0",
   "description": "List local packages",
   "keywords": [
@@ -32,9 +32,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/command": "file:../../core/command",
-    "@puggo-org/filter-options": "file:../../core/filter-options",
-    "@puggo-org/listable": "file:../../utils/listable",
-    "@puggo-org/output": "file:../../utils/output"
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/filter-options": "file:../../core/filter-options",
+    "@pubbo/listable": "file:../../utils/listable",
+    "@pubbo/output": "file:../../utils/output"
   }
 }

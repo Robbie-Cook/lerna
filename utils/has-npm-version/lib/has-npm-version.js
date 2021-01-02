@@ -1,7 +1,7 @@
 "use strict";
 
 const semver = require("semver");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 module.exports = hasNpmVersion;
 module.exports.makePredicate = makePredicate;

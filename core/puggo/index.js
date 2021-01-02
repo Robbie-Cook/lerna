@@ -1,22 +1,22 @@
 "use strict";
 
-const cli = require("@puggo-org/cli");
+const cli = require("@pubbo/cli");
 
-const addCmd = require("@puggo-org/add/command");
-const bootstrapCmd = require("@puggo-org/bootstrap/command");
-const changedCmd = require("@puggo-org/changed/command");
-const cleanCmd = require("@puggo-org/clean/command");
-const createCmd = require("@puggo-org/create/command");
-const diffCmd = require("@puggo-org/diff/command");
-const execCmd = require("@puggo-org/exec/command");
-const importCmd = require("@puggo-org/import/command");
-const infoCmd = require("@puggo-org/info/command");
-const initCmd = require("@puggo-org/init/command");
-const linkCmd = require("@puggo-org/link/command");
-const listCmd = require("@puggo-org/list/command");
-const publishCmd = require("@puggo-org/publish/command");
-const runCmd = require("@puggo-org/run/command");
-const versionCmd = require("@puggo-org/version/command");
+const addCmd = require("@pubbo/add/command");
+const bootstrapCmd = require("@pubbo/bootstrap/command");
+const changedCmd = require("@pubbo/changed/command");
+const cleanCmd = require("@pubbo/clean/command");
+const createCmd = require("@pubbo/create/command");
+const diffCmd = require("@pubbo/diff/command");
+const execCmd = require("@pubbo/exec/command");
+const importCmd = require("@pubbo/import/command");
+const infoCmd = require("@pubbo/info/command");
+const initCmd = require("@pubbo/init/command");
+const linkCmd = require("@pubbo/link/command");
+const listCmd = require("@pubbo/list/command");
+const publishCmd = require("@pubbo/publish/command");
+const runCmd = require("@pubbo/run/command");
+const versionCmd = require("@pubbo/version/command");
 
 const pkg = require("./package.json");
 

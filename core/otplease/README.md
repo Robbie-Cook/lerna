@@ -1,4 +1,4 @@
-# `@puggo-org/otplease`
+# `@pubbo/otplease`
 
 > Prompt for OTP when wrapped Promise fails
 

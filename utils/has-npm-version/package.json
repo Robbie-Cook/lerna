@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/has-npm-version",
+  "name": "@pubbo/has-npm-version",
   "version": "3.16.5",
   "description": "Test if the current version of npm satisfies a given semver range",
   "keywords": [
@@ -28,7 +28,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../../core/child-process",
+    "@pubbo/child-process": "file:../../core/child-process",
     "semver": "^6.2.0"
   }
 }

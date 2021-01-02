@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/check-working-tree",
+  "name": "@pubbo/check-working-tree",
   "version": "3.16.5",
   "description": "Check git working tree status and error appropriately",
   "keywords": [
@@ -30,8 +30,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/collect-uncommitted": "file:../collect-uncommitted",
-    "@puggo-org/describe-ref": "file:../describe-ref",
-    "@puggo-org/validation-error": "file:../../core/validation-error"
+    "@pubbo/collect-uncommitted": "file:../collect-uncommitted",
+    "@pubbo/describe-ref": "file:../describe-ref",
+    "@pubbo/validation-error": "file:../../core/validation-error"
   }
 }

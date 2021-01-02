@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/collect-updates",
+  "name": "@pubbo/collect-updates",
   "version": "3.20.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../../core/child-process",
-    "@puggo-org/describe-ref": "file:../describe-ref",
+    "@pubbo/child-process": "file:../../core/child-process",
+    "@pubbo/describe-ref": "file:../describe-ref",
     "minimatch": "^3.0.4",
     "npmlog": "^4.1.2",
     "slash": "^2.0.0"

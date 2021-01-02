@@ -5,9 +5,9 @@ const path = require("path");
 const chalk = require("chalk");
 
 // helpers
-const { getPackages } = require("@puggo-org/project");
-const gitAdd = require("@puggo-org-test/git-add");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const { getPackages } = require("@pubbo/project");
+const gitAdd = require("@pubbo-test/git-add");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
 const collectUncommitted = require("../lib/collect-uncommitted");

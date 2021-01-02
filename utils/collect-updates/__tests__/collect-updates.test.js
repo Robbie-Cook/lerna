@@ -2,12 +2,12 @@
 
 const dedent = require("dedent");
 
-jest.mock("@puggo-org/describe-ref");
+jest.mock("@pubbo/describe-ref");
 jest.mock("../lib/has-tags");
 jest.mock("../lib/make-diff-predicate");
 
 // mocked modules
-const describeRef = require("@puggo-org/describe-ref");
+const describeRef = require("@pubbo/describe-ref");
 const hasTags = require("../lib/has-tags");
 const makeDiffPredicate = require("../lib/make-diff-predicate");
 

@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.20.2](https://github.com/lerna/lerna/compare/v3.20.1...v3.20.2) (2020-01-02)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.20.1](https://github.com/lerna/lerna/compare/v3.20.0...v3.20.1) (2019-12-29)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -83,7 +83,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.4](https://github.com/lerna/lerna/compare/v3.18.3...v3.18.4) (2019-11-08)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -91,7 +91,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.3](https://github.com/lerna/lerna/compare/v3.18.2...v3.18.3) (2019-10-22)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -99,7 +99,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.2](https://github.com/lerna/lerna/compare/v3.18.1...v3.18.2) (2019-10-21)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -107,7 +107,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.18.1](https://github.com/lerna/lerna/compare/v3.18.0...v3.18.1) (2019-10-15)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -128,7 +128,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.5](https://github.com/lerna/lerna/compare/v3.16.4...v3.16.5) (2019-10-07)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -158,7 +158,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.2](https://github.com/lerna/lerna/compare/v3.16.1...v3.16.2) (2019-07-22)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -166,7 +166,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.1](https://github.com/lerna/lerna/compare/v3.16.0...v3.16.1) (2019-07-19)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -220,7 +220,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.1](https://github.com/lerna/lerna/compare/v3.14.0...v3.14.1) (2019-05-15)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -243,7 +243,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.13.4](https://github.com/lerna/lerna/compare/v3.13.3...v3.13.4) (2019-04-24)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -296,7 +296,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.12.1](https://github.com/lerna/lerna/compare/v3.12.0...v3.12.1) (2019-02-14)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -323,7 +323,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.11.1](https://github.com/lerna/lerna/compare/v3.11.0...v3.11.1) (2019-02-11)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -360,7 +360,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.7](https://github.com/lerna/lerna/compare/v3.10.6...v3.10.7) (2019-01-22)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -380,7 +380,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.5](https://github.com/lerna/lerna/compare/v3.10.4...v3.10.5) (2019-01-11)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -388,7 +388,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.3](https://github.com/lerna/lerna/compare/v3.10.2...v3.10.3) (2019-01-10)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -396,7 +396,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.1](https://github.com/lerna/lerna/compare/v3.10.0...v3.10.1) (2019-01-09)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -415,7 +415,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.9.0](https://github.com/lerna/lerna/compare/v3.8.5...v3.9.0) (2019-01-08)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -537,7 +537,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **npm-publish:** Use libnpm/publish instead of subprocess execution ([433275e](https://github.com/lerna/lerna/commit/433275e))
 * **publish:** Add npm-session, npm-version, and user-agent fields to libnpm/fetch config ([5edb27d](https://github.com/lerna/lerna/commit/5edb27d))
 * **publish:** Refresh package manifests after prepare/prepublishOnly lifecycle ([e6b31f8](https://github.com/lerna/lerna/commit/e6b31f8))
-* **publish:** Use [@puggo-org](https://github.com/lerna)/pack-directory instead of subprocess npm pack ([fd7299f](https://github.com/lerna/lerna/commit/fd7299f))
+* **publish:** Use [@pubbo](https://github.com/lerna)/pack-directory instead of subprocess npm pack ([fd7299f](https://github.com/lerna/lerna/commit/fd7299f))
 * **publish:** Use libnpm/publish instead of subprocess execution ([58fda8d](https://github.com/lerna/lerna/commit/58fda8d))
 
 
@@ -654,7 +654,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.3.1"></a>
 ## [3.3.1](https://github.com/lerna/lerna/compare/v3.3.0...v3.3.1) (2018-09-11)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -709,7 +709,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.3"></a>
 ## [3.1.3](https://github.com/lerna/lerna/compare/v3.1.2...v3.1.3) (2018-08-21)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -745,7 +745,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.6"></a>
 ## [3.0.6](https://github.com/lerna/lerna/compare/v3.0.5...v3.0.6) (2018-08-16)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -895,7 +895,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.21"></a>
 # [3.0.0-beta.21](https://github.com/lerna/lerna/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2018-05-12)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -904,7 +904,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.20"></a>
 # [3.0.0-beta.20](https://github.com/lerna/lerna/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2018-05-07)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -953,7 +953,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.17"></a>
 # [3.0.0-beta.17](https://github.com/lerna/lerna/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2018-04-13)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -1097,7 +1097,7 @@ Thanks @KingScooty for raising the issue!
 <a name="3.0.0-beta.7"></a>
 # [3.0.0-beta.7](https://github.com/lerna/lerna/compare/v3.0.0-beta.6...v3.0.0-beta.7) (2018-03-20)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -1106,7 +1106,7 @@ Thanks @KingScooty for raising the issue!
 <a name="3.0.0-beta.4"></a>
 # [3.0.0-beta.4](https://github.com/lerna/lerna/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2018-03-19)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 
@@ -1129,7 +1129,7 @@ Thanks @KingScooty for raising the issue!
 <a name="3.0.0-beta.2"></a>
 # [3.0.0-beta.2](https://github.com/lerna/lerna/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2018-03-10)
 
-**Note:** Version bump only for package @puggo-org/publish
+**Note:** Version bump only for package @pubbo/publish
 
 
 

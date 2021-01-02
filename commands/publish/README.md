@@ -1,4 +1,4 @@
-# `@puggo-org/publish`
+# `@pubbo/publish`
 
 > Publish packages in the current project
 

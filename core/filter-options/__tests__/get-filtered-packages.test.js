@@ -4,12 +4,12 @@ const path = require("path");
 const yargs = require("yargs/yargs");
 
 // mocked modules
-const collectUpdates = require("@puggo-org/collect-updates");
+const collectUpdates = require("@pubbo/collect-updates");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../command"));
-const PackageGraph = require("@puggo-org/package-graph");
-const { getPackages } = require("@puggo-org/project");
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../command"));
+const PackageGraph = require("@pubbo/package-graph");
+const { getPackages } = require("@pubbo/project");
 
 const getFilteredPackages = require("../lib/get-filtered-packages");
 const filterOptions = require("..");

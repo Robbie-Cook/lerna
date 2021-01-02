@@ -1,4 +1,4 @@
-# `@puggo-org/get-packed`
+# `@pubbo/get-packed`
 
 > Read contents of package tarball created by npm pack
 

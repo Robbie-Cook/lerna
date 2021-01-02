@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/run",
+  "name": "@pubbo/run",
   "version": "3.21.0",
   "description": "Run an npm script in each package that contains that script",
   "keywords": [
@@ -32,14 +32,14 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/command": "file:../../core/command",
-    "@puggo-org/filter-options": "file:../../core/filter-options",
-    "@puggo-org/npm-run-script": "file:../../utils/npm-run-script",
-    "@puggo-org/output": "file:../../utils/output",
-    "@puggo-org/profiler": "file:../../utils/profiler",
-    "@puggo-org/run-topologically": "file:../../utils/run-topologically",
-    "@puggo-org/timer": "file:../../utils/timer",
-    "@puggo-org/validation-error": "file:../../core/validation-error",
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/filter-options": "file:../../core/filter-options",
+    "@pubbo/npm-run-script": "file:../../utils/npm-run-script",
+    "@pubbo/output": "file:../../utils/output",
+    "@pubbo/profiler": "file:../../utils/profiler",
+    "@pubbo/run-topologically": "file:../../utils/run-topologically",
+    "@pubbo/timer": "file:../../utils/timer",
+    "@pubbo/validation-error": "file:../../core/validation-error",
     "p-map": "^2.1.0"
   }
 }

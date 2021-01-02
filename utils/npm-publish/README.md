@@ -1,4 +1,4 @@
-# `@puggo-org/npm-publish`
+# `@pubbo/npm-publish`
 
 > An internal Lerna tool
 

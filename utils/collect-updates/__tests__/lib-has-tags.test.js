@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@puggo-org/child-process");
+jest.mock("@pubbo/child-process");
 
 // mocked modules
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 // file under test
 const hasTags = require("../lib/has-tags");

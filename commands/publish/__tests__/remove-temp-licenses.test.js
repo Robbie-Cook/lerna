@@ -2,8 +2,8 @@
 
 const fs = require("fs-extra");
 const path = require("path");
-const Project = require("@puggo-org/project");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const Project = require("@pubbo/project");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const removeTempLicenses = require("../lib/remove-temp-licenses");
 
 describe("removeTempLicenses", () => {

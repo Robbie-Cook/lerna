@@ -1,4 +1,4 @@
-# `@puggo-org/create`
+# `@pubbo/create`
 
 > Create a new lerna-managed package
 

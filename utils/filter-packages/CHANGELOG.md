@@ -51,7 +51,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @puggo-org/filter-packages
+**Note:** Version bump only for package @pubbo/filter-packages
 
 
 
@@ -71,7 +71,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @puggo-org/filter-packages
+**Note:** Version bump only for package @pubbo/filter-packages
 
 
 
@@ -80,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-rc.0"></a>
 # [3.0.0-rc.0](https://github.com/lerna/lerna/compare/v3.0.0-beta.21...v3.0.0-rc.0) (2018-07-27)
 
-**Note:** Version bump only for package @puggo-org/filter-packages
+**Note:** Version bump only for package @pubbo/filter-packages
 
 
 
@@ -89,7 +89,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.10"></a>
 # [3.0.0-beta.10](https://github.com/lerna/lerna/compare/v3.0.0-beta.9...v3.0.0-beta.10) (2018-03-27)
 
-**Note:** Version bump only for package @puggo-org/filter-packages
+**Note:** Version bump only for package @pubbo/filter-packages
 
 
 
@@ -113,7 +113,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Replace @puggo-org/match-package-name with multimatch ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
+* Replace @pubbo/match-package-name with multimatch ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
 * **filter-packages:** Simplify method signature ([47e1c86](https://github.com/lerna/lerna/commit/47e1c86))
 
 

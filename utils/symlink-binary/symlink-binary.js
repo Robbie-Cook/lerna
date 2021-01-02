@@ -4,8 +4,8 @@ const fs = require("fs-extra");
 const path = require("path");
 const pMap = require("p-map");
 
-const Package = require("@puggo-org/package");
-const createSymlink = require("@puggo-org/create-symlink");
+const Package = require("@pubbo/package");
+const createSymlink = require("@pubbo/create-symlink");
 
 module.exports = symlinkBinary;
 

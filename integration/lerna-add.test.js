@@ -5,9 +5,9 @@ const globby = require("globby");
 const loadJson = require("load-json-file");
 const pMap = require("p-map");
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const pkgMatchers = require("@puggo-org-test/pkg-matchers");
+const cliRunner = require("@pubbo-test/cli-runner");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const pkgMatchers = require("@pubbo-test/pkg-matchers");
 
 expect.extend(pkgMatchers);
 

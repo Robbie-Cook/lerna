@@ -4,7 +4,7 @@ const util = require("util");
 const multimatch = require("multimatch");
 const log = require("npmlog");
 
-const ValidationError = require("@puggo-org/validation-error");
+const ValidationError = require("@pubbo/validation-error");
 
 module.exports = filterPackages;
 

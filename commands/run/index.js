@@ -2,14 +2,14 @@
 
 const pMap = require("p-map");
 
-const Command = require("@puggo-org/command");
-const npmRunScript = require("@puggo-org/npm-run-script");
-const output = require("@puggo-org/output");
-const Profiler = require("@puggo-org/profiler");
-const timer = require("@puggo-org/timer");
-const runTopologically = require("@puggo-org/run-topologically");
-const ValidationError = require("@puggo-org/validation-error");
-const { getFilteredPackages } = require("@puggo-org/filter-options");
+const Command = require("@pubbo/command");
+const npmRunScript = require("@pubbo/npm-run-script");
+const output = require("@pubbo/output");
+const Profiler = require("@pubbo/profiler");
+const timer = require("@pubbo/timer");
+const runTopologically = require("@pubbo/run-topologically");
+const ValidationError = require("@pubbo/validation-error");
+const { getFilteredPackages } = require("@pubbo/filter-options");
 
 module.exports = factory;
 

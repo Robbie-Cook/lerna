@@ -1,4 +1,4 @@
-# `@puggo-org/import`
+# `@pubbo/import`
 
 > Import a package into the monorepo with commit history
 

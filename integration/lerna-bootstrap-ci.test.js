@@ -1,8 +1,8 @@
 "use strict";
 
 const path = require("path");
-const cliRunner = require("@puggo-org-test/cli-runner");
-const cloneFixture = require("@puggo-org-test/clone-fixture")(
+const cliRunner = require("@pubbo-test/cli-runner");
+const cloneFixture = require("@pubbo-test/clone-fixture")(
   path.resolve(__dirname, "../commands/bootstrap/__tests__")
 );
 

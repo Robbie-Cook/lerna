@@ -1,21 +1,21 @@
 "use strict";
 
-jest.mock("@puggo-org/rimraf-dir");
-jest.mock("@puggo-org/prompt");
+jest.mock("@pubbo/rimraf-dir");
+jest.mock("@pubbo/prompt");
 
 const fs = require("fs-extra");
 const path = require("path");
 
 // mocked or stubbed modules
-const rimrafDir = require("@puggo-org/rimraf-dir");
-const PromptUtilities = require("@puggo-org/prompt");
+const rimrafDir = require("@pubbo/rimraf-dir");
+const PromptUtilities = require("@pubbo/prompt");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const normalizeRelativeDir = require("@puggo-org-test/normalize-relative-dir");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const normalizeRelativeDir = require("@pubbo-test/normalize-relative-dir");
 
 // file under test
-const lernaClean = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaClean = require("@pubbo-test/command-runner")(require("../command"));
 
 // assertion helpers
 const removedDirectories = testDir =>

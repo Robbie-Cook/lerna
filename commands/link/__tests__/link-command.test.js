@@ -1,16 +1,16 @@
 "use strict";
 
-jest.mock("@puggo-org/create-symlink");
+jest.mock("@pubbo/create-symlink");
 
 // mocked or stubbed modules
-const createSymlink = require("@puggo-org/create-symlink");
+const createSymlink = require("@pubbo/create-symlink");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const normalizeRelativeDir = require("@puggo-org-test/normalize-relative-dir");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const normalizeRelativeDir = require("@pubbo-test/normalize-relative-dir");
 
 // file under test
-const lernaLink = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaLink = require("@pubbo-test/command-runner")(require("../command"));
 
 // assertion helpers
 const symlinkedDirectories = testDir =>

@@ -1,9 +1,9 @@
 "use strict";
 
-const Command = require("@puggo-org/command");
-const listable = require("@puggo-org/listable");
-const output = require("@puggo-org/output");
-const { getFilteredPackages } = require("@puggo-org/filter-options");
+const Command = require("@pubbo/command");
+const listable = require("@pubbo/listable");
+const output = require("@pubbo/output");
+const { getFilteredPackages } = require("@pubbo/filter-options");
 
 module.exports = factory;
 

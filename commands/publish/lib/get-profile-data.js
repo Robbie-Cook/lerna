@@ -1,7 +1,7 @@
 "use strict";
 
 const fetch = require("@evocateur/npm-registry-fetch");
-const pulseTillDone = require("@puggo-org/pulse-till-done");
+const pulseTillDone = require("@pubbo/pulse-till-done");
 
 module.exports = getProfileData;
 

@@ -5,10 +5,10 @@ const path = require("path");
 const tempy = require("tempy");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
-const lernaInit = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaInit = require("@pubbo-test/command-runner")(require("../command"));
 
 describe("InitCommand", () => {
   const lernaVersion = "__TEST_VERSION__";

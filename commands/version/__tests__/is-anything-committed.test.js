@@ -1,7 +1,7 @@
 "use strict";
 
 const execa = require("execa");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const isAnythingCommitted = require("../lib/is-anything-committed");
 
 test("isAnythingCommitted", async () => {

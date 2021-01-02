@@ -1,4 +1,4 @@
-# `@puggo-org/symlink-dependencies`
+# `@pubbo/symlink-dependencies`
 
 > Lerna's internal symlinking tool
 

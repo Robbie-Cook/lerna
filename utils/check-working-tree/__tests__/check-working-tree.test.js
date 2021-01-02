@@ -1,10 +1,10 @@
 "use strict";
 
-jest.mock("@puggo-org/describe-ref");
-jest.mock("@puggo-org/collect-uncommitted");
+jest.mock("@pubbo/describe-ref");
+jest.mock("@pubbo/collect-uncommitted");
 
-const describeRef = require("@puggo-org/describe-ref");
-const collectUncommitted = require("@puggo-org/collect-uncommitted");
+const describeRef = require("@pubbo/describe-ref");
+const collectUncommitted = require("@pubbo/collect-uncommitted");
 const checkWorkingTree = require("../lib/check-working-tree");
 
 describe("check-working-tree", () => {

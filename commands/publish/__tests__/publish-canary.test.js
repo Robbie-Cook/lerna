@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@puggo-org/collect-updates");
+jest.unmock("@pubbo/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -11,26 +11,26 @@ jest.mock("../lib/get-two-factor-auth-required");
 
 const fs = require("fs-extra");
 const path = require("path");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 // mocked modules
 const writePkg = require("write-pkg");
-const npmPublish = require("@puggo-org/npm-publish");
-const PromptUtilities = require("@puggo-org/prompt");
-const checkWorkingTree = require("@puggo-org/check-working-tree");
+const npmPublish = require("@pubbo/npm-publish");
+const PromptUtilities = require("@pubbo/prompt");
+const checkWorkingTree = require("@pubbo/check-working-tree");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const gitAdd = require("@puggo-org-test/git-add");
-const gitTag = require("@puggo-org-test/git-tag");
-const gitCommit = require("@puggo-org-test/git-commit");
-const loggingOutput = require("@puggo-org-test/logging-output");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const gitAdd = require("@pubbo-test/git-add");
+const gitTag = require("@pubbo-test/git-tag");
+const gitCommit = require("@pubbo-test/git-commit");
+const loggingOutput = require("@pubbo-test/logging-output");
 
 // test command
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-git-sha"));
 
 async function initTaggedFixture(fixtureName, tagVersionPrefix = "v") {
   const cwd = await initFixture(fixtureName);

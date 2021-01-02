@@ -1,6 +1,6 @@
 "use strict";
 
-// expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
+// expect.addSnapshotSerializer(require("@pubbo-test/serialize-git-sha"));
 module.exports = {
   serialize(str) {
     return (

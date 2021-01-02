@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@puggo-org/collect-updates");
+jest.unmock("@pubbo/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -16,20 +16,20 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked or stubbed modules
-const npmPublish = require("@puggo-org/npm-publish");
-const PromptUtilities = require("@puggo-org/prompt");
-const output = require("@puggo-org/output");
-const checkWorkingTree = require("@puggo-org/check-working-tree");
+const npmPublish = require("@pubbo/npm-publish");
+const PromptUtilities = require("@pubbo/prompt");
+const output = require("@pubbo/output");
+const checkWorkingTree = require("@pubbo/check-working-tree");
 
 // helpers
-const loggingOutput = require("@puggo-org-test/logging-output");
-const gitTag = require("@puggo-org-test/git-tag");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const loggingOutput = require("@pubbo-test/logging-output");
+const gitTag = require("@pubbo-test/git-tag");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
-expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
+expect.extend(require("@pubbo-test/figgy-pudding-matchers"));
 
 describe("publish from-git", () => {
   it("publishes tagged packages", async () => {

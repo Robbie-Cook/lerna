@@ -1,13 +1,13 @@
 {
-  "name": "@puggo-org-test/commit-change-to-package",
+  "name": "@pubbo-test/commit-change-to-package",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org-test/git-add": "file:../git-add",
-    "@puggo-org-test/git-commit": "file:../git-commit",
+    "@pubbo-test/git-add": "file:../git-add",
+    "@pubbo-test/git-commit": "file:../git-commit",
     "load-json-file": "^5.3.0",
     "write-json-file": "^3.2.0"
   }

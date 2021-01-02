@@ -192,8 +192,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **filter-options:** Allow command to continue if no packages are matched ([#2280](https://github.com/lerna/lerna/issues/2280)) ([a706023](https://github.com/lerna/lerna/commit/a706023b585846c8e43771657d65ba8797125504))
 * **filter-options:** Rename `--include-filtered-*` options ([f2c3a92](https://github.com/lerna/lerna/commit/f2c3a92fe41b6fdc5d11269f0f2c3e27761b4c85))
 * **filter-options:** Use figgy-pudding in getFilteredPackages() ([73badee](https://github.com/lerna/lerna/commit/73badee5da06745ff58ee96f762d7240e9b4d6f1))
-* Remove unused @puggo-org/batch-packages ([d136fb5](https://github.com/lerna/lerna/commit/d136fb5fa98563ae6e9abdc51d1c6211a9e0c5bf))
-* Remove unused @puggo-org/run-parallel-batches ([ec95403](https://github.com/lerna/lerna/commit/ec95403d6b56ecd4b37a187874015505005a13fb))
+* Remove unused @pubbo/batch-packages ([d136fb5](https://github.com/lerna/lerna/commit/d136fb5fa98563ae6e9abdc51d1c6211a9e0c5bf))
+* Remove unused @pubbo/run-parallel-batches ([ec95403](https://github.com/lerna/lerna/commit/ec95403d6b56ecd4b37a187874015505005a13fb))
 * Upgrade to yargs@14 ([5e60213](https://github.com/lerna/lerna/commit/5e60213e93e3ee229a9341a14e420ed2401001dd))
 * **package-graph:** Deprecate method `pruneCycleNodes()` ([ccf32e1](https://github.com/lerna/lerna/commit/ccf32e1d745e0ab2d633d8b72613d3c19ccdc0c7))
 
@@ -388,7 +388,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **publish:** Display uncommitted changes when validation fails ([#2066](https://github.com/lerna/lerna/issues/2066)) ([ea41fe9](https://github.com/lerna/lerna/commit/ea41fe9))
 * **query-graph:** Add toposort() helper ([90759c2](https://github.com/lerna/lerna/commit/90759c2))
 * **run:** Add just-in-time queue management ([#2045](https://github.com/lerna/lerna/issues/2045)) ([6eca172](https://github.com/lerna/lerna/commit/6eca172))
-* **run:** Extract `@puggo-org/run-topologically` ([3a8b175](https://github.com/lerna/lerna/commit/3a8b175))
+* **run:** Extract `@pubbo/run-topologically` ([3a8b175](https://github.com/lerna/lerna/commit/3a8b175))
 * **version:** Add just-in-time queue management ([290539b](https://github.com/lerna/lerna/commit/290539b))
 
 
@@ -830,14 +830,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Add [@puggo-org](https://github.com/lerna)/get-packed ([8675c8f](https://github.com/lerna/lerna/commit/8675c8f))
-* Add [@puggo-org](https://github.com/lerna)/pack-directory ([be1aeaf](https://github.com/lerna/lerna/commit/be1aeaf))
+* Add [@pubbo](https://github.com/lerna)/get-packed ([8675c8f](https://github.com/lerna/lerna/commit/8675c8f))
+* Add [@pubbo](https://github.com/lerna)/pack-directory ([be1aeaf](https://github.com/lerna/lerna/commit/be1aeaf))
 * **dist-tag:** Wrap options in figgy-pudding ([2713ab8](https://github.com/lerna/lerna/commit/2713ab8))
 * **npm-publish:** Use libnpm/publish instead of subprocess execution ([433275e](https://github.com/lerna/lerna/commit/433275e))
 * **package:** Add .refresh() method to update internal state when external changes have occurred ([905ba10](https://github.com/lerna/lerna/commit/905ba10))
 * **publish:** Add npm-session, npm-version, and user-agent fields to libnpm/fetch config ([5edb27d](https://github.com/lerna/lerna/commit/5edb27d))
 * **publish:** Refresh package manifests after prepare/prepublishOnly lifecycle ([e6b31f8](https://github.com/lerna/lerna/commit/e6b31f8))
-* **publish:** Use [@puggo-org](https://github.com/lerna)/pack-directory instead of subprocess npm pack ([fd7299f](https://github.com/lerna/lerna/commit/fd7299f))
+* **publish:** Use [@pubbo](https://github.com/lerna)/pack-directory instead of subprocess npm pack ([fd7299f](https://github.com/lerna/lerna/commit/fd7299f))
 * **publish:** Use libnpm/publish instead of subprocess execution ([58fda8d](https://github.com/lerna/lerna/commit/58fda8d))
 * **version:** Refresh package manifests after preversion lifecycle ([7c7bf9a](https://github.com/lerna/lerna/commit/7c7bf9a))
 
@@ -1115,8 +1115,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Create `[@puggo-org](https://github.com/lerna)/check-working-tree` ([98cd41f](https://github.com/lerna/lerna/commit/98cd41f))
-* Create `[@puggo-org](https://github.com/lerna)/describe-ref` ([8c11b75](https://github.com/lerna/lerna/commit/8c11b75))
+* Create `[@pubbo](https://github.com/lerna)/check-working-tree` ([98cd41f](https://github.com/lerna/lerna/commit/98cd41f))
+* Create `[@pubbo](https://github.com/lerna)/describe-ref` ([8c11b75](https://github.com/lerna/lerna/commit/8c11b75))
 
 
 
@@ -1230,13 +1230,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **changed:** Support list output options ([6ecdd83](https://github.com/lerna/lerna/commit/6ecdd83))
-* **list:** Extract [@puggo-org](https://github.com/lerna)/listable utility ([bf56018](https://github.com/lerna/lerna/commit/bf56018))
+* **list:** Extract [@pubbo](https://github.com/lerna)/listable utility ([bf56018](https://github.com/lerna/lerna/commit/bf56018))
 * **list:** Improve scriptability with several new options ([2e204af](https://github.com/lerna/lerna/commit/2e204af))
 * **npm-publish:** Add npmPack export ([088ea54](https://github.com/lerna/lerna/commit/088ea54))
 * **package:** Add tarball property ([be453cd](https://github.com/lerna/lerna/commit/be453cd))
 * **publish:** Run `npm pack` before `npm publish` ([8d80b2c](https://github.com/lerna/lerna/commit/8d80b2c))
 * **publish:** Validate npm registry and package access prerequisites ([ebc8ba6](https://github.com/lerna/lerna/commit/ebc8ba6)), closes [#55](https://github.com/lerna/lerna/issues/55) [#1045](https://github.com/lerna/lerna/issues/1045) [#1347](https://github.com/lerna/lerna/issues/1347)
-* Add [@puggo-org](https://github.com/lerna)/log-packed module, extracted from npm ([9c767ac](https://github.com/lerna/lerna/commit/9c767ac))
+* Add [@pubbo](https://github.com/lerna)/log-packed module, extracted from npm ([9c767ac](https://github.com/lerna/lerna/commit/9c767ac))
 * Split `lerna version` from of `lerna publish` ([#1522](https://github.com/lerna/lerna/issues/1522)) ([8b97394](https://github.com/lerna/lerna/commit/8b97394)), closes [#277](https://github.com/lerna/lerna/issues/277) [#936](https://github.com/lerna/lerna/issues/936) [#956](https://github.com/lerna/lerna/issues/956) [#961](https://github.com/lerna/lerna/issues/961) [#1056](https://github.com/lerna/lerna/issues/1056) [#1118](https://github.com/lerna/lerna/issues/1118) [#1385](https://github.com/lerna/lerna/issues/1385) [#1483](https://github.com/lerna/lerna/issues/1483) [#1494](https://github.com/lerna/lerna/issues/1494)
 
 
@@ -1399,7 +1399,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 despite logging the unexpected arguments correctly. This would result in the commands continuing to run with unexpected configuration.
 
 Going forward, lerna will exit non-zero _immediately_ upon encountering these errors.
-* `@puggo-org/git-utils` is gone. Don't use it.
+* `@pubbo/git-utils` is gone. Don't use it.
 * **collect-updates:** GitUtilities is going away soon.
 * **diff:** Don't use GitUtilities.
 * **git-utils:** Don't use GitUtilities!
@@ -1630,7 +1630,7 @@ These config blocks should be moved to `command.bootstrap` and `command.publish`
 * **init:** Improve ex-nihilo output ([7b80e07](https://github.com/lerna/lerna/commit/7b80e07))
 * **npm-conf:** Add get/setCredentialsByURI() methods ([ad20d8a](https://github.com/lerna/lerna/commit/ad20d8a))
 * **utils:** Add "vendored" npm-conf ([9c24a25](https://github.com/lerna/lerna/commit/9c24a25))
-* **utils:** Add [@puggo-org](https://github.com/lerna)/map-to-registry ([ce72828](https://github.com/lerna/lerna/commit/ce72828))
+* **utils:** Add [@pubbo](https://github.com/lerna)/map-to-registry ([ce72828](https://github.com/lerna/lerna/commit/ce72828))
 
 
 
@@ -1717,13 +1717,13 @@ These config blocks should be moved to `command.bootstrap` and `command.publish`
 
 ### Bug Fixes
 
-* Move `@puggo-org/has-dependency-installed` into `commands/bootstrap/lib` ([c09ccbd](https://github.com/lerna/lerna/commit/c09ccbd))
+* Move `@pubbo/has-dependency-installed` into `commands/bootstrap/lib` ([c09ccbd](https://github.com/lerna/lerna/commit/c09ccbd))
 
 ### Features
 
-* Rename `@puggo-org/fs-utils` => `@puggo-org/rimraf-dir` ([30451ed](https://github.com/lerna/lerna/commit/30451ed))
-* Replace `@puggo-org/fs-utils` dependency with `fs-extra` ([9c35a86](https://github.com/lerna/lerna/commit/9c35a86))
-* Replace `@puggo-org/match-package-name` with `multimatch` ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
+* Rename `@pubbo/fs-utils` => `@pubbpubboraf-dir` ([30451ed](https://github.com/lerna/lerna/commit/30451ed))
+* Replace `@pubbo/fs-utils` dependency with `fs-extra` ([9c35a86](https://github.com/lerna/lerna/commit/9c35a86))
+* Replace `@pubbo/match-package-name` with `multimatch` ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
 * **filter-packages:** Simplify method signature ([47e1c86](https://github.com/lerna/lerna/commit/47e1c86))
 
 

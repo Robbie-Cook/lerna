@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org-test/silence-logging",
+  "name": "@pubbo-test/silence-logging",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

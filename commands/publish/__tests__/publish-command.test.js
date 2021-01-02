@@ -1,6 +1,6 @@
 "use strict";
 
-jest.mock("@puggo-org/otplease");
+jest.mock("@pubbo/otplease");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -16,30 +16,30 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked or stubbed modules
-const otplease = require("@puggo-org/otplease");
-const npmDistTag = require("@puggo-org/npm-dist-tag");
-const npmPublish = require("@puggo-org/npm-publish");
-const packDirectory = require("@puggo-org/pack-directory");
-const PromptUtilities = require("@puggo-org/prompt");
-const collectUpdates = require("@puggo-org/collect-updates");
+const otplease = require("@pubbo/otplease");
+const npmDistTag = require("@pubbo/npm-dist-tag");
+const npmPublish = require("@pubbo/npm-publish");
+const packDirectory = require("@pubbo/pack-directory");
+const PromptUtilities = require("@pubbo/prompt");
+const collectUpdates = require("@pubbo/collect-updates");
 const getNpmUsername = require("../lib/get-npm-username");
 const verifyNpmPackageAccess = require("../lib/verify-npm-package-access");
 const getTwoFactorAuthRequired = require("../lib/get-two-factor-auth-required");
 const gitCheckout = require("../lib/git-checkout");
 
 // helpers
-const commitChangeToPackage = require("@puggo-org-test/commit-change-to-package");
-const loggingOutput = require("@puggo-org-test/logging-output");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const commitChangeToPackage = require("@pubbo-test/commit-change-to-package");
+const loggingOutput = require("@pubbo-test/logging-output");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const path = require("path");
 const fs = require("fs-extra");
 
 // file under test
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
 gitCheckout.mockImplementation(() => Promise.resolve());
 
-expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
+expect.extend(require("@pubbo-test/figgy-pudding-matchers"));
 
 describe("PublishCommand", () => {
   describe("cli validation", () => {
@@ -142,7 +142,7 @@ Map {
 
       expect(getTwoFactorAuthRequired).toHaveBeenCalled();
       expect(getTwoFactorAuthRequired).toHaveBeenLastCalledWith(
-        // extra insurance that @puggo-org/npm-conf is defaulting things correctly
+        // extra insurance that @pubbo/npm-conf is defaulting things correctly
         expect.figgyPudding({ otp: undefined })
       );
 

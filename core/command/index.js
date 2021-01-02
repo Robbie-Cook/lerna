@@ -6,10 +6,10 @@ const execa = require("execa");
 const log = require("npmlog");
 const os = require("os");
 
-const PackageGraph = require("@puggo-org/package-graph");
-const Project = require("@puggo-org/project");
-const writeLogFile = require("@puggo-org/write-log-file");
-const ValidationError = require("@puggo-org/validation-error");
+const PackageGraph = require("@pubbo/package-graph");
+const Project = require("@pubbo/project");
+const writeLogFile = require("@pubbo/write-log-file");
+const ValidationError = require("@pubbo/validation-error");
 
 const cleanStack = require("./lib/clean-stack");
 const defaultOptions = require("./lib/default-options");

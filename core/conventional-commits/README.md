@@ -1,4 +1,4 @@
-# `@puggo-org/conventional-commits`
+# `@pubbo/conventional-commits`
 
 > Lerna's internal interface to conventional-changelog and friends
 

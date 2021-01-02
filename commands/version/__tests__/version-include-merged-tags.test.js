@@ -1,24 +1,24 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@puggo-org/collect-updates");
+jest.unmock("@pubbo/collect-updates");
 
 const path = require("path");
 const fs = require("fs");
 
 // mocked modules
-const output = require("@puggo-org/output");
+const output = require("@pubbo/output");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const gitAdd = require("@puggo-org-test/git-add");
-const gitCommit = require("@puggo-org-test/git-commit");
-const gitTag = require("@puggo-org-test/git-tag");
-const gitCheckout = require("@puggo-org-test/git-checkout");
-const gitMerge = require("@puggo-org-test/git-merge");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const gitAdd = require("@pubbo-test/git-add");
+const gitCommit = require("@pubbo-test/git-commit");
+const gitTag = require("@pubbo-test/git-tag");
+const gitCheckout = require("@pubbo-test/git-checkout");
+const gitMerge = require("@pubbo-test/git-merge");
 
 // file under test
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 // remove quotes around top-level strings
 expect.addSnapshotSerializer({
@@ -32,8 +32,8 @@ expect.addSnapshotSerializer({
 });
 
 // normalize temp directory paths in snapshots
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-windows-paths"));
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-tempdir"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-windows-paths"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-tempdir"));
 
 describe("version --include-merged-tags", () => {
   const setupGitChangesWithBranch = async (cwd, masterPaths, branchPaths) => {

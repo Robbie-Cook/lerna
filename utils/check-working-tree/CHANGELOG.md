@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.5](https://github.com/lerna/lerna/compare/v3.16.4...v3.16.5) (2019-10-07)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.1](https://github.com/lerna/lerna/compare/v3.14.0...v3.14.1) (2019-05-15)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -46,7 +46,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.13.3](https://github.com/lerna/lerna/compare/v3.13.2...v3.13.3) (2019-04-17)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -65,7 +65,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.11.0](https://github.com/lerna/lerna/compare/v3.10.8...v3.11.0) (2019-02-08)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -73,7 +73,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -81,7 +81,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.9.0](https://github.com/lerna/lerna/compare/v3.8.5...v3.9.0) (2019-01-08)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -89,7 +89,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.8.1](https://github.com/lerna/lerna/compare/v3.8.0...v3.8.1) (2018-12-31)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -97,7 +97,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.6.0](https://github.com/lerna/lerna/compare/v3.5.1...v3.6.0) (2018-12-07)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -105,7 +105,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0](https://github.com/lerna/lerna/compare/v3.4.3...v3.5.0) (2018-11-27)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -114,7 +114,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/lerna/lerna/compare/v3.2.1...v3.3.0) (2018-09-06)
 
-**Note:** Version bump only for package @puggo-org/check-working-tree
+**Note:** Version bump only for package @pubbo/check-working-tree
 
 
 
@@ -126,4 +126,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Create `[@puggo-org](https://github.com/lerna)/check-working-tree` ([98cd41f](https://github.com/lerna/lerna/commit/98cd41f))
+* Create `[@pubbo](https://github.com/lerna)/check-working-tree` ([98cd41f](https://github.com/lerna/lerna/commit/98cd41f))

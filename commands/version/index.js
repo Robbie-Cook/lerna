@@ -10,16 +10,16 @@ const pReduce = require("p-reduce");
 const pWaterfall = require("p-waterfall");
 const semver = require("semver");
 
-const Command = require("@puggo-org/command");
-const ConventionalCommitUtilities = require("@puggo-org/conventional-commits");
-const checkWorkingTree = require("@puggo-org/check-working-tree");
-const PromptUtilities = require("@puggo-org/prompt");
-const output = require("@puggo-org/output");
-const collectUpdates = require("@puggo-org/collect-updates");
-const { createRunner } = require("@puggo-org/run-lifecycle");
-const runTopologically = require("@puggo-org/run-topologically");
-const ValidationError = require("@puggo-org/validation-error");
-const prereleaseIdFromVersion = require("@puggo-org/prerelease-id-from-version");
+const Command = require("@pubbo/command");
+const ConventionalCommitUtilities = require("@pubbo/conventional-commits");
+const checkWorkingTree = require("@pubbo/check-working-tree");
+const PromptUtilities = require("@pubbo/prompt");
+const output = require("@pubbo/output");
+const collectUpdates = require("@pubbo/collect-updates");
+const { createRunner } = require("@pubbo/run-lifecycle");
+const runTopologically = require("@pubbo/run-topologically");
+const ValidationError = require("@pubbo/validation-error");
+const prereleaseIdFromVersion = require("@pubbo/prerelease-id-from-version");
 
 const getCurrentBranch = require("./lib/get-current-branch");
 const gitAdd = require("./lib/git-add");

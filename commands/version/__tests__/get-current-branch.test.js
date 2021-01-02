@@ -1,6 +1,6 @@
 "use strict";
 
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const getCurrentBranch = require("../lib/get-current-branch");
 
 test("getCurrentBranch", async () => {

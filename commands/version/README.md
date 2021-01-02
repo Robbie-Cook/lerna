@@ -1,4 +1,4 @@
-# `@puggo-org/version`
+# `@pubbo/version`
 
 > Bump version of packages changed since the last release
 

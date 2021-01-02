@@ -5,15 +5,15 @@ const fs = require("fs-extra");
 const path = require("path");
 const tempy = require("tempy");
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const gitAdd = require("@puggo-org-test/git-add");
-const gitCommit = require("@puggo-org-test/git-commit");
-const cloneFixture = require("@puggo-org-test/clone-fixture")(
+const cliRunner = require("@pubbo-test/cli-runner");
+const gitAdd = require("@pubbo-test/git-add");
+const gitCommit = require("@pubbo-test/git-commit");
+const cloneFixture = require("@pubbo-test/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-changelog"));
 
 const env = {
   // never actually upload when calling `npm publish`

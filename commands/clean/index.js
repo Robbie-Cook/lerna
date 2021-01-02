@@ -3,11 +3,11 @@
 const path = require("path");
 const pMap = require("p-map");
 
-const Command = require("@puggo-org/command");
-const rimrafDir = require("@puggo-org/rimraf-dir");
-const PromptUtilities = require("@puggo-org/prompt");
-const { getFilteredPackages } = require("@puggo-org/filter-options");
-const pulseTillDone = require("@puggo-org/pulse-till-done");
+const Command = require("@pubbo/command");
+const rimrafDir = require("@pubbo/rimraf-dir");
+const PromptUtilities = require("@pubbo/prompt");
+const { getFilteredPackages } = require("@pubbo/filter-options");
+const pulseTillDone = require("@pubbo/pulse-till-done");
 
 module.exports = factory;
 

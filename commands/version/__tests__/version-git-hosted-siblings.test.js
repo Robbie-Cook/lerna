@@ -12,10 +12,10 @@ const path = require("path");
 const writePkg = require("write-pkg");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 describe("git-hosted sibling specifiers", () => {
   test("gitCommittish", async () => {

@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/get-npm-exec-opts",
+  "name": "@pubbo/get-npm-exec-opts",
   "version": "3.13.0",
   "description": "An internal Lerna tool",
   "keywords": [

@@ -1,6 +1,6 @@
 "use strict";
 
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 const log = require("npmlog");
 const minimatch = require("minimatch");
 const path = require("path");

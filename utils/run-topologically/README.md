@@ -1,4 +1,4 @@
-# `@puggo-org/run-topologically`
+# `@pubbo/run-topologically`
 
 > An internal Lerna tool
 

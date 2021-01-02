@@ -12,15 +12,15 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked modules
-const collectUpdates = require("@puggo-org/collect-updates");
-const npmDistTag = require("@puggo-org/npm-dist-tag");
-const npmPublish = require("@puggo-org/npm-publish");
+const collectUpdates = require("@pubbo/collect-updates");
+const npmDistTag = require("@pubbo/npm-dist-tag");
+const npmPublish = require("@pubbo/npm-publish");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // test command
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
 test("publish --dist-tag next", async () => {
   const cwd = await initFixture("normal");

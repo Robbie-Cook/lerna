@@ -3,10 +3,10 @@
 jest.mock("npm-lifecycle", () => jest.fn(() => Promise.resolve()));
 
 const log = require("npmlog");
-const loggingOutput = require("@puggo-org-test/logging-output");
+const loggingOutput = require("@pubbo-test/logging-output");
 const runScript = require("npm-lifecycle");
-const npmConf = require("@puggo-org/npm-conf");
-const Package = require("@puggo-org/package");
+const npmConf = require("@pubbo/npm-conf");
+const Package = require("@pubbo/package");
 const runLifecycle = require("../run-lifecycle");
 
 describe("runLifecycle()", () => {

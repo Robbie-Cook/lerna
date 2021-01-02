@@ -16,7 +16,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.2](https://github.com/lerna/lerna/compare/v3.16.1...v3.16.2) (2019-07-22)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.16.1](https://github.com/lerna/lerna/compare/v3.16.0...v3.16.1) (2019-07-19)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -43,7 +43,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -51,7 +51,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.14.0](https://github.com/lerna/lerna/compare/v3.13.4...v3.14.0) (2019-05-14)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -93,7 +93,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.5](https://github.com/lerna/lerna/compare/v3.10.4...v3.10.5) (2019-01-11)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -101,7 +101,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -120,7 +120,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.8.2](https://github.com/lerna/lerna/compare/v3.8.1...v3.8.2) (2019-01-03)
 
-**Note:** Version bump only for package @puggo-org/pack-directory
+**Note:** Version bump only for package @pubbo/pack-directory
 
 
 
@@ -153,4 +153,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Add [@puggo-org](https://github.com/lerna)/pack-directory ([be1aeaf](https://github.com/lerna/lerna/commit/be1aeaf))
+* Add [@pubbo](https://github.com/lerna)/pack-directory ([be1aeaf](https://github.com/lerna/lerna/commit/be1aeaf))

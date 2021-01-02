@@ -4,7 +4,7 @@ const log = require("npmlog");
 const path = require("path");
 const pathExists = require("path-exists");
 
-const ChildProcessUtilities = require("@puggo-org/child-process");
+const ChildProcessUtilities = require("@pubbo/child-process");
 
 // NOTE: if rimraf moves the location of its executable, this will need to be updated
 const RIMRAF_CLI = require.resolve("rimraf/bin");

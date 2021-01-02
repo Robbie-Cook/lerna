@@ -2,7 +2,7 @@
 
 const path = require("path");
 const log = require("npmlog");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 module.exports = getTaggedPackages;
 

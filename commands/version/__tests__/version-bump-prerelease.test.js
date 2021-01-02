@@ -1,8 +1,8 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@puggo-org/collect-updates");
-jest.unmock("@puggo-org/conventional-commits");
+jest.unmock("@pubbo/collect-updates");
+jest.unmock("@pubbo/conventional-commits");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/git-push");
@@ -14,23 +14,23 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // mocked modules
-const prompt = require("@puggo-org/prompt");
+const prompt = require("@pubbo/prompt");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const showCommit = require("@puggo-org-test/show-commit");
-const gitInit = require("@puggo-org-test/git-init");
-const gitAdd = require("@puggo-org-test/git-add");
-const gitTag = require("@puggo-org-test/git-tag");
-const gitCommit = require("@puggo-org-test/git-commit");
-const getCommitMessage = require("@puggo-org-test/get-commit-message");
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const showCommit = require("@pubbo-test/show-commit");
+const gitInit = require("@pubbo-test/git-init");
+const gitAdd = require("@pubbo-test/git-add");
+const gitTag = require("@pubbo-test/git-tag");
+const gitCommit = require("@pubbo-test/git-commit");
+const getCommitMessage = require("@pubbo-test/get-commit-message");
 const Tacks = require("tacks");
 const tempy = require("tempy");
 
 const { File, Dir } = Tacks;
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 // remove quotes around top-level strings
 expect.addSnapshotSerializer({
@@ -44,7 +44,7 @@ expect.addSnapshotSerializer({
 });
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-changelog"));
 
 const setupChanges = async cwd => {
   await gitTag(cwd, "v1.0.1-beta.3");

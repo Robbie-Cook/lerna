@@ -1,4 +1,4 @@
-# `@puggo-org/npm-conf`
+# `@pubbo/npm-conf`
 
 > Vendored npm-conf with updates
 

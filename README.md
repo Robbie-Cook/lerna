@@ -1,6 +1,6 @@
-# Puggo
+# pubbo
 
-> A fork of [puggo](https://github.com/puggo/puggo).
+> A fork of [pubbo](https://github.com/pubbo/pubbo).
 
 </p>
 
@@ -9,21 +9,21 @@
 - [How It Works](#how-it-works)
 - [Troubleshooting](#troubleshooting)
 - Commands
-  - [`puggo publish`](./commands/publish#readme)
-  - [`puggo version`](./commands/version#readme)
-  - [`puggo bootstrap`](./commands/bootstrap#readme)
-  - [`puggo list`](./commands/list#readme)
-  - [`puggo changed`](./commands/changed#readme)
-  - [`puggo diff`](./commands/diff#readme)
-  - [`puggo exec`](./commands/exec#readme)
-  - [`puggo run`](./commands/run#readme)
-  - [`puggo init`](./commands/init#readme)
-  - [`puggo add`](./commands/add#readme)
-  - [`puggo clean`](./commands/clean#readme)
-  - [`puggo import`](./commands/import#readme)
-  - [`puggo link`](./commands/link#readme)
-  - [`puggo create`](./commands/create#readme)
-  - [`puggo info`](./commands/info#readme)
+  - [`pubbo publish`](./commands/publish#readme)
+  - [`pubbo version`](./commands/version#readme)
+  - [`pubbo bootstrap`](./commands/bootstrap#readme)
+  - [`pubbo list`](./commands/list#readme)
+  - [`pubbo changed`](./commands/changed#readme)
+  - [`pubbo diff`](./commands/diff#readme)
+  - [`pubbo exec`](./commands/exec#readme)
+  - [`pubbo run`](./commands/run#readme)
+  - [`pubbo init`](./commands/init#readme)
+  - [`pubbo add`](./commands/add#readme)
+  - [`pubbo clean`](./commands/clean#readme)
+  - [`pubbo import`](./commands/import#readme)
+  - [`pubbo link`](./commands/link#readme)
+  - [`pubbo create`](./commands/create#readme)
+  - [`pubbo info`](./commands/info#readme)
 - [Concepts](#concepts)
 - [Lerna.json](#lernajson)
 - [Global Flags](./core/global-options)
@@ -41,20 +41,20 @@ codebases into multi-package repositories (sometimes called [monorepos](https://
 [Ember](https://github.com/emberjs/ember.js/tree/master/packages), [Meteor](https://github.com/meteor/meteor/tree/devel/packages), [Jest](https://github.com/facebook/jest/tree/master/packages), and many others develop all of their packages within a
 single repository.
 
-**Puggo is a tool that optimizes the workflow around managing multi-package
+**pubbo is a tool that optimizes the workflow around managing multi-package
 repositories with git and npm.**
 
-Puggo can also reduce the time and space requirements for numerous
+pubbo can also reduce the time and space requirements for numerous
 copies of packages in development and build environments - normally a
 downside of dividing a project into many separate NPM packages. See the
 [hoist documentation](doc/hoist.md) for details.
 
-### What does a Puggo repo look like?
+### What does a pubbo repo look like?
 
 There's actually very little to it. You have a file structure that looks like this:
 
 ```
-my-Puggo-repo/
+my-pubbo-repo/
   package.json
   packages/
     package-1/
@@ -63,29 +63,29 @@ my-Puggo-repo/
       package.json
 ```
 
-### What can Puggo do?
+### What can pubbo do?
 
-The two primary commands in Puggo are `puggo bootstrap` and `puggo publish`.
+The two primary commands in pubbo are `pubbo bootstrap` and `pubbo publish`.
 
 `bootstrap` will link dependencies in the repo together.
 `publish` will help publish any updated packages.
 
 ## Getting Started
 
-> The instructions below are for Puggo 3.x.
-> We recommend using it instead of 2.x for a new Puggo project.
+> The instructions below are for pubbo 3.x.
+> We recommend using it instead of 2.x for a new pubbo project.
 
-Let's start by installing Puggo as a dev dependency of your project with [npm](https://www.npmjs.com/).
+Let's start by installing pubbo as a dev dependency of your project with [npm](https://www.npmjs.com/).
 
 ```sh
-$ mkdir puggo-repo && cd $_
-$ npx puggo init
+$ mkdir pubbo-repo && cd $_
+$ npx pubbo init
 ```
 
 This will create a `lerna.json` configuration file as well as a `packages` folder, so your folder should now look like this:
 
 ```
-puggo-repo/
+pubbo-repo/
   packages/
   package.json
   lerna.json
@@ -93,21 +93,21 @@ puggo-repo/
 
 ## How It Works
 
-Puggo allows you to manage your project using one of two modes: Fixed or Independent.
+pubbo allows you to manage your project using one of two modes: Fixed or Independent.
 
 ### Fixed/Locked mode (default)
 
-Fixed mode Puggo projects operate on a single version line. The version is kept in the `lerna.json` file at the root of your project under the `version` key. When you run `puggo publish`, if a module has been updated since the last time a release was made, it will be updated to the new version you're releasing. This means that you only publish a new version of a package when you need to.
+Fixed mode pubbo projects operate on a single version line. The version is kept in the `lerna.json` file at the root of your project under the `version` key. When you run `pubbo publish`, if a module has been updated since the last time a release was made, it will be updated to the new version you're releasing. This means that you only publish a new version of a package when you need to.
 
-> Note: If you have a major version zero, all updates are [considered breaking](https://semver.org/#spec-item-4). Because of that, running `puggo publish` with a major version zero and choosing any non-prerelease version number will cause new versions to be published for all packages, even if not all packages have changed since the last release.
+> Note: If you have a major version zero, all updates are [considered breaking](https://semver.org/#spec-item-4). Because of that, running `pubbo publish` with a major version zero and choosing any non-prerelease version number will cause new versions to be published for all packages, even if not all packages have changed since the last release.
 
 This is the mode that [Babel](https://github.com/babel/babel) is currently using. Use this if you want to automatically tie all package versions together. One issue with this approach is that a major change in any package will result in all packages having a new major version.
 
 ### Independent mode
 
-`puggo init --independent`
+`pubbo init --independent`
 
-Independent mode Puggo projects allows maintainers to increment package versions independently of each other. Each time you publish, you will get a prompt for each package that has changed to specify if it's a patch, minor, major or custom change.
+Independent mode pubbo projects allows maintainers to increment package versions independently of each other. Each time you publish, you will get a prompt for each package that has changed to specify if it's a patch, minor, major or custom change.
 
 Independent mode allows you to more specifically update versions for each package and makes sense for a group of components. Combining this mode with something like [semantic-release](https://github.com/semantic-release/semantic-release) would make it less painful.
 
@@ -124,11 +124,11 @@ See [FAQ.md](FAQ.md).
 
 ## Concepts
 
-Puggo will log to a `lerna-debug.log` file (same as `npm-debug.log`) when it encounters an error running a command.
+pubbo will log to a `lerna-debug.log` file (same as `npm-debug.log`) when it encounters an error running a command.
 
-Puggo also has support for [scoped packages](https://docs.npmjs.com/misc/scope).
+pubbo also has support for [scoped packages](https://docs.npmjs.com/misc/scope).
 
-Run `puggo --help` to see all available commands and options.
+Run `pubbo --help` to see all available commands and options.
 
 ### lerna.json
 
@@ -153,7 +153,7 @@ Run `puggo --help` to see all available commands and options.
 
 - `version`: the current version of the repository.
 - `npmClient`: an option to specify a specific client to run commands with (this can also be specified on a per command basis). Change to `"yarn"` to run all commands with yarn. Defaults to "npm".
-- `command.publish.ignoreChanges`: an array of globs that won't be included in `puggo changed/publish`. Use this to prevent publishing a new version unnecessarily for changes, such as fixing a `README.md` typo.
+- `command.publish.ignoreChanges`: an array of globs that won't be included in `pubbo changed/publish`. Use this to prevent publishing a new version unnecessarily for changes, such as fixing a `README.md` typo.
 - `command.publish.message`: a custom commit message when performing version updates for publication.
 - `command.publish.registry`: use it to set a custom registry url to publish to instead of
   npmjs.org, you must already be authenticated if required.
@@ -162,9 +162,9 @@ Run `puggo --help` to see all available commands and options.
 - `command.bootstrap.scope`: an array of globs that restricts which packages will be bootstrapped when running the `lerna bootstrap` command.
 - `packages`: Array of globs to use as package locations.
 
-The packages config in `lerna.json` is a list of globs that match directories containing a `package.json`, which is how Puggo recognizes "leaf" packages (vs the "root" `package.json`, which is intended to manage the dev dependencies and scripts for the entire repo).
+The packages config in `lerna.json` is a list of globs that match directories containing a `package.json`, which is how pubbo recognizes "leaf" packages (vs the "root" `package.json`, which is intended to manage the dev dependencies and scripts for the entire repo).
 
-By default, Puggo initializes the packages list as `["packages/*"]`, but you can also use another directory such as `["modules/*"]`, or `["package1", "package2"]`. The globs defined are relative to the directory that `lerna.json` lives in, which is usually the repository root. The only restriction is that you can't directly nest package locations, but this is a restriction shared by "normal" npm packages as well.
+By default, pubbo initializes the packages list as `["packages/*"]`, but you can also use another directory such as `["modules/*"]`, or `["package1", "package2"]`. The globs defined are relative to the directory that `lerna.json` lives in, which is usually the repository root. The only restriction is that you can't directly nest package locations, but this is a restriction shared by "normal" npm packages as well.
 
 For example, `["packages/*", "src/**"]` matches this tree:
 
@@ -199,11 +199,11 @@ src/
         └── package.json
 ```
 
-Locating leaf packages under `packages/*` is considered a "best-practice", but is not a requirement for using Puggo.
+Locating leaf packages under `packages/*` is considered a "best-practice", but is not a requirement for using pubbo.
 
 ### Common `devDependencies`
 
-Most `devDependencies` can be pulled up to the root of a Puggo repo with `puggo link convert`
+Most `devDependencies` can be pulled up to the root of a pubbo repo with `pubbo link convert`
 
 The above command will automatically hoist things and use relative `file:` specifiers.
 
@@ -218,7 +218,7 @@ Note that `devDependencies` providing "binary" executables that are used by
 npm scripts still need to be installed directly in each package where they're
 used.
 
-For example the `nsp` dependency is necessary in this case for `puggo run nsp`
+For example the `nsp` dependency is necessary in this case for `pubbo run nsp`
 (and `npm run nsp` within the package's directory) to work correctly:
 
 ```json
@@ -234,10 +234,10 @@ For example the `nsp` dependency is necessary in this case for `puggo run nsp`
 
 ### Git Hosted Dependencies
 
-Puggo allows target versions of local dependent packages to be written as a [git remote url](https://docs.npmjs.com/cli/install) with a `committish` (e.g., `#v1.0.0` or `#semver:^1.0.0`) instead of the normal numeric version range.
+pubbo allows target versions of local dependent packages to be written as a [git remote url](https://docs.npmjs.com/cli/install) with a `committish` (e.g., `#v1.0.0` or `#semver:^1.0.0`) instead of the normal numeric version range.
 This allows packages to be distributed via git repositories when packages must be private and a [private npm registry is not desired](https://www.dotconferences.com/2016/05/fabien-potencier-monolithic-repositories-vs-many-repositories).
 
-Please note that Puggo does _not_ perform the actual splitting of git history into the separate read-only repositories. This is the responsibility of the user. (See [this comment](https://github.com/lerna/lerna/pull/1033#issuecomment-335894690) for implementation details)
+Please note that pubbo does _not_ perform the actual splitting of git history into the separate read-only repositories. This is the responsibility of the user. (See [this comment](https://github.com/lerna/lerna/pull/1033#issuecomment-335894690) for implementation details)
 
 ```
 // packages/pkg-1/package.json
@@ -258,5 +258,5 @@ Please note that Puggo does _not_ perform the actual splitting of git history in
 
 In the example above,
 
-- `puggo bootstrap` will properly symlink `pkg-2` into `pkg-1`.
-- `puggo publish` will update the committish (`#v1.0.0`) in `pkg-1` when `pkg-2` changes.
+- `pubbo bootstrap` will properly symlink `pkg-2` into `pkg-1`.
+- `pubbo publish` will update the committish (`#v1.0.0`) in `pkg-1` when `pkg-2` changes.

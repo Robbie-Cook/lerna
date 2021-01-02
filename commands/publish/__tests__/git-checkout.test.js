@@ -3,7 +3,7 @@
 const execa = require("execa");
 const fs = require("fs-extra");
 const path = require("path");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const gitCheckout = require("../lib/git-checkout");
 
 test("gitCheckout files", async () => {

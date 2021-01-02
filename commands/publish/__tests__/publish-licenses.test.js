@@ -16,16 +16,16 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // mocked modules
-const packDirectory = require("@puggo-org/pack-directory");
+const packDirectory = require("@pubbo/pack-directory");
 const createTempLicenses = require("../lib/create-temp-licenses");
 const removeTempLicenses = require("../lib/remove-temp-licenses");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const loggingOutput = require("@puggo-org-test/logging-output");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const loggingOutput = require("@pubbo-test/logging-output");
 
 // test command
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
 describe("licenses", () => {
   it("makes a temporary copy of the root license text if package has none", async () => {

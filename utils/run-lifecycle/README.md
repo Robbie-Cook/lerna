@@ -1,4 +1,4 @@
-# `@puggo-org/run-lifecycle`
+# `@pubbo/run-lifecycle`
 
 > An internal Lerna tool
 

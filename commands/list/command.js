@@ -1,7 +1,7 @@
 "use strict";
 
-const filterable = require("@puggo-org/filter-options");
-const listable = require("@puggo-org/listable");
+const filterable = require("@pubbo/filter-options");
+const listable = require("@pubbo/listable");
 
 /**
  * @see https://github.com/yargs/yargs/blob/master/docs/advanced.md#providing-a-command-module

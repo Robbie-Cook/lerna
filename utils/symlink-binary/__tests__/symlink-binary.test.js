@@ -1,15 +1,15 @@
 "use strict";
 
 const path = require("path");
-const Package = require("@puggo-org/package");
+const Package = require("@pubbo/package");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
 const symlinkBinary = require("..");
 
-expect.extend(require("@puggo-org-test/pkg-matchers"));
+expect.extend(require("@pubbo-test/pkg-matchers"));
 
 describe("symlink-binary", () => {
   it("should work with path references", async () => {

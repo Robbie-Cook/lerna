@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/rimraf-dir",
+  "name": "@pubbo/rimraf-dir",
   "version": "3.16.5",
   "description": "Run rimraf on a directory in a subprocess to hack around slowness",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../../core/child-process",
+    "@pubbo/child-process": "file:../../core/child-process",
     "npmlog": "^4.1.2",
     "path-exists": "^3.0.0",
     "rimraf": "^2.6.2"

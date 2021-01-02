@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@puggo-org/collect-updates");
+jest.unmock("@pubbo/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/git-push");
@@ -13,17 +13,17 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const gitAdd = require("@puggo-org-test/git-add");
-const gitTag = require("@puggo-org-test/git-tag");
-const gitCommit = require("@puggo-org-test/git-commit");
-const showCommit = require("@puggo-org-test/show-commit");
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const gitAdd = require("@pubbo-test/git-add");
+const gitTag = require("@pubbo-test/git-tag");
+const gitCommit = require("@pubbo-test/git-commit");
+const showCommit = require("@pubbo-test/show-commit");
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-git-sha"));
 
 describe("version --ignore-changes", () => {
   const setupChanges = async (cwd, tuples) => {

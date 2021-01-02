@@ -1,8 +1,8 @@
 "use strict";
 
 // helpers
-const Package = require("@puggo-org/package");
-const PackageGraph = require("@puggo-org/package-graph");
+const Package = require("@pubbo/package");
+const PackageGraph = require("@pubbo/package-graph");
 
 module.exports = buildGraph;
 

@@ -12,29 +12,29 @@ const execa = require("execa");
 
 // mocked or stubbed modules
 const writePkg = require("write-pkg");
-const PromptUtilities = require("@puggo-org/prompt");
-const collectUpdates = require("@puggo-org/collect-updates");
-const output = require("@puggo-org/output");
-const checkWorkingTree = require("@puggo-org/check-working-tree");
+const PromptUtilities = require("@pubbo/prompt");
+const collectUpdates = require("@pubbo/collect-updates");
+const output = require("@pubbo/output");
+const checkWorkingTree = require("@pubbo/check-working-tree");
 const libPush = require("../lib/git-push");
 const isAnythingCommitted = require("../lib/is-anything-committed");
 const isBehindUpstream = require("../lib/is-behind-upstream");
 const remoteBranchExists = require("../lib/remote-branch-exists");
 
 // helpers
-const loggingOutput = require("@puggo-org-test/logging-output");
-const gitAdd = require("@puggo-org-test/git-add");
-const gitTag = require("@puggo-org-test/git-tag");
-const gitCommit = require("@puggo-org-test/git-commit");
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const showCommit = require("@puggo-org-test/show-commit");
-const getCommitMessage = require("@puggo-org-test/get-commit-message");
+const loggingOutput = require("@pubbo-test/logging-output");
+const gitAdd = require("@pubbo-test/git-add");
+const gitTag = require("@pubbo-test/git-tag");
+const gitCommit = require("@pubbo-test/git-commit");
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const showCommit = require("@pubbo-test/show-commit");
+const getCommitMessage = require("@pubbo-test/get-commit-message");
 
 // file under test
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 // certain tests need to use the real thing
-const collectUpdatesActual = require.requireActual("@puggo-org/collect-updates");
+const collectUpdatesActual = require.requireActual("@pubbo/collect-updates");
 
 // assertion helpers
 const listDirty = cwd =>
@@ -44,7 +44,7 @@ const listDirty = cwd =>
   );
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-git-sha"));
 
 describe("VersionCommand", () => {
   describe("normal mode", () => {

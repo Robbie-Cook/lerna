@@ -4,7 +4,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
 const Project = require("..");

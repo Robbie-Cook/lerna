@@ -2,13 +2,13 @@
 
 jest.mock("../lib/get-profile-data");
 
-const loggingOutput = require("@puggo-org-test/logging-output");
+const loggingOutput = require("@pubbo-test/logging-output");
 const getProfileData = require("../lib/get-profile-data");
 const getTwoFactorAuthRequired = require("../lib/get-two-factor-auth-required");
 
 getProfileData.mockImplementation(() => Promise.resolve({ tfa: {} }));
 
-expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
+expect.extend(require("@pubbo-test/figgy-pudding-matchers"));
 
 describe("getTwoFactorAuthRequired", () => {
   const origConsoleError = console.error;

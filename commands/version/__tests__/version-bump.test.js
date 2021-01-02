@@ -9,14 +9,14 @@ jest.mock("../lib/remote-branch-exists");
 const path = require("path");
 
 // mocked modules
-const PromptUtilities = require("@puggo-org/prompt");
+const PromptUtilities = require("@pubbo/prompt");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const getCommitMessage = require("@puggo-org-test/get-commit-message");
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const getCommitMessage = require("@pubbo-test/get-commit-message");
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 describe("version bump", () => {
   it("accepts explicit versions", async () => {

@@ -1,11 +1,11 @@
-# `@puggo-org/check-working-tree`
+# `@pubbo/check-working-tree`
 
 > Check git working tree status and error appropriately
 
 ## Usage
 
 ```js
-const checkWorkingTree = require("@puggo-org/check-working-tree");
+const checkWorkingTree = require("@pubbo/check-working-tree");
 
 // values listed here are their defaults
 const options = {

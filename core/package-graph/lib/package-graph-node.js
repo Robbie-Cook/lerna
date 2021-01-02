@@ -1,7 +1,7 @@
 "use strict";
 
 const semver = require("semver");
-const prereleaseIdFromVersion = require("@puggo-org/prerelease-id-from-version");
+const prereleaseIdFromVersion = require("@pubbo/prerelease-id-from-version");
 
 /**
  * Represents a node in a PackageGraph.

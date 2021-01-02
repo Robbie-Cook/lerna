@@ -2,8 +2,8 @@
 
 const log = require("npmlog");
 
-const ChildProcessUtilities = require("@puggo-org/child-process");
-const getOpts = require("@puggo-org/get-npm-exec-opts");
+const ChildProcessUtilities = require("@pubbo/child-process");
+const getOpts = require("@pubbo/get-npm-exec-opts");
 
 module.exports = runScript;
 module.exports.stream = stream;

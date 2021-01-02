@@ -1,7 +1,7 @@
 "use strict";
 
 const execa = require("execa");
-const gitSHA = require("@puggo-org-test/serialize-git-sha");
+const gitSHA = require("@pubbo-test/serialize-git-sha");
 
 module.exports = showCommit;
 

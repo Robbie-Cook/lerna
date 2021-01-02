@@ -1,7 +1,7 @@
 "use strict";
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const cliRunner = require("@pubbo-test/cli-runner");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 if (process.platform !== "win32") {
   test("lerna link symlinks generated binaries of sibling packages", async () => {

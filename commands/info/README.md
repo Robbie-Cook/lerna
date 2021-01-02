@@ -1,4 +1,4 @@
-# `@puggo-org/info`
+# `@pubbo/info`
 
 > Print local environment information
 

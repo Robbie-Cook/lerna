@@ -1,8 +1,8 @@
 "use strict";
 
 const access = require("@evocateur/libnpmaccess");
-const pulseTillDone = require("@puggo-org/pulse-till-done");
-const ValidationError = require("@puggo-org/validation-error");
+const pulseTillDone = require("@pubbo/pulse-till-done");
+const ValidationError = require("@pubbo/validation-error");
 const FetchConfig = require("./fetch-config");
 
 module.exports = verifyNpmPackageAccess;

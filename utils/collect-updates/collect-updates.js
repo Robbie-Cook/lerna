@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const describeRef = require("@puggo-org/describe-ref");
+const describeRef = require("@pubbo/describe-ref");
 
 const hasTags = require("./lib/has-tags");
 const collectPackages = require("./lib/collect-packages");

@@ -1,21 +1,21 @@
 "use strict";
 
-jest.mock("@puggo-org/bootstrap");
+jest.mock("@pubbo/bootstrap");
 jest.mock("@evocateur/pacote/manifest");
 
 // mocked or stubbed modules
-const bootstrap = require("@puggo-org/bootstrap");
+const bootstrap = require("@pubbo/bootstrap");
 const getManifest = require("@evocateur/pacote/manifest");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const { getPackages } = require("@puggo-org/project");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const { getPackages } = require("@pubbo/project");
 
 // file under test
-const lernaAdd = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaAdd = require("@pubbo-test/command-runner")(require("../command"));
 
 // assertion helpers
-expect.extend(require("@puggo-org-test/pkg-matchers"));
+expect.extend(require("@pubbo-test/pkg-matchers"));
 
 describe("AddCommand", () => {
   // we already have enough tests of BootstrapCommand

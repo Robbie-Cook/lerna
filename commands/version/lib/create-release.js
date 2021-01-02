@@ -2,9 +2,9 @@
 
 const semver = require("semver");
 
-const createGitLabClient = require("@puggo-org/gitlab-client");
-const { createGitHubClient, parseGitRepo } = require("@puggo-org/github-client");
-const ValidationError = require("@puggo-org/validation-error");
+const createGitLabClient = require("@pubbo/gitlab-client");
+const { createGitHubClient, parseGitRepo } = require("@pubbo/github-client");
+const ValidationError = require("@pubbo/validation-error");
 
 module.exports = createRelease;
 

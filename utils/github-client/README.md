@@ -1,4 +1,4 @@
-# `@puggo-org/github-client`
+# `@pubbo/github-client`
 
 > An internal Lerna tool
 

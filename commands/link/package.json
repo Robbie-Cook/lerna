@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/link",
+  "name": "@pubbo/link",
   "version": "3.21.0",
   "description": "Symlink together all packages that are dependencies of each other",
   "keywords": [
@@ -32,9 +32,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/command": "file:../../core/command",
-    "@puggo-org/package-graph": "file:../../core/package-graph",
-    "@puggo-org/symlink-dependencies": "file:../../utils/symlink-dependencies",
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/package-graph": "file:../../core/package-graph",
+    "@pubbo/symlink-dependencies": "file:../../utils/symlink-dependencies",
     "p-map": "^2.1.0",
     "slash": "^2.0.0"
   }

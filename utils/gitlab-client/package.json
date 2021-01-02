@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/gitlab-client",
+  "name": "@pubbo/gitlab-client",
   "version": "3.15.0",
   "description": "An internal Lerna tool",
   "keywords": [

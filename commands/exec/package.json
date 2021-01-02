@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/exec",
+  "name": "@pubbo/exec",
   "version": "3.21.0",
   "description": "Execute an arbitrary command in each package",
   "keywords": [
@@ -32,12 +32,12 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../../core/child-process",
-    "@puggo-org/command": "file:../../core/command",
-    "@puggo-org/filter-options": "file:../../core/filter-options",
-    "@puggo-org/profiler": "file:../../utils/profiler",
-    "@puggo-org/run-topologically": "file:../../utils/run-topologically",
-    "@puggo-org/validation-error": "file:../../core/validation-error",
+    "@pubbo/child-process": "file:../../core/child-process",
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/filter-options": "file:../../core/filter-options",
+    "@pubbo/profiler": "file:../../utils/profiler",
+    "@pubbo/run-topologically": "file:../../utils/run-topologically",
+    "@pubbo/validation-error": "file:../../core/validation-error",
     "p-map": "^2.1.0"
   }
 }

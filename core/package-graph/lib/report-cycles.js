@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const ValidationError = require("@puggo-org/validation-error");
+const ValidationError = require("@pubbo/validation-error");
 
 module.exports.reportCycles = reportCycles;
 

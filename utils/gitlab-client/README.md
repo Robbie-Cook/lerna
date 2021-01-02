@@ -1,4 +1,4 @@
-# `@puggo-org/gitlab-client`
+# `@pubbo/gitlab-client`
 
 > An internal Lerna tool
 

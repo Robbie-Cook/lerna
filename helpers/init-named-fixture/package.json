@@ -1,15 +1,15 @@
 {
-  "name": "@puggo-org-test/init-named-fixture",
+  "name": "@pubbo-test/init-named-fixture",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org-test/copy-fixture": "file:../copy-fixture",
-    "@puggo-org-test/git-add": "file:../git-add",
-    "@puggo-org-test/git-commit": "file:../git-commit",
-    "@puggo-org-test/git-init": "file:../git-init",
+    "@pubbo-test/copy-fixture": "file:../copy-fixture",
+    "@pubbo-test/git-add": "file:../git-add",
+    "@pubbo-test/git-commit": "file:../git-commit",
+    "@pubbo-test/git-init": "file:../git-init",
     "tempy": "^0.2.1",
     "fs-extra": "^8.1.0"
   }

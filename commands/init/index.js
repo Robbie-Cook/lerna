@@ -5,8 +5,8 @@ const path = require("path");
 const pMap = require("p-map");
 const writeJsonFile = require("write-json-file");
 
-const Command = require("@puggo-org/command");
-const childProcess = require("@puggo-org/child-process");
+const Command = require("@pubbo/command");
+const childProcess = require("@pubbo/child-process");
 
 module.exports = factory;
 

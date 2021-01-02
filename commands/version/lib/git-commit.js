@@ -3,7 +3,7 @@
 const { EOL } = require("os");
 const log = require("npmlog");
 const tempWrite = require("temp-write");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 module.exports = gitCommit;
 

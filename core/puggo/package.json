@@ -1,12 +1,12 @@
 {
-  "name": "puggo",
+  "name": "pubbo",
   "version": "3.21.0",
   "description": "A tool for managing JavaScript projects with multiple packages.",
   "keywords": [
     "lerna",
     "monorepo",
     "multi-package",
-    "puggo"
+    "pubbo"
   ],
   "homepage": "https://github.com/lerna/lerna#readme",
   "license": "MIT",
@@ -33,22 +33,22 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/add": "file:../../commands/add",
-    "@puggo-org/bootstrap": "file:../../commands/bootstrap",
-    "@puggo-org/changed": "file:../../commands/changed",
-    "@puggo-org/clean": "file:../../commands/clean",
-    "@puggo-org/cli": "file:../cli",
-    "@puggo-org/create": "file:../../commands/create",
-    "@puggo-org/diff": "file:../../commands/diff",
-    "@puggo-org/exec": "file:../../commands/exec",
-    "@puggo-org/import": "file:../../commands/import",
-    "@puggo-org/info": "file:../../commands/info",
-    "@puggo-org/init": "file:../../commands/init",
-    "@puggo-org/link": "file:../../commands/link",
-    "@puggo-org/list": "file:../../commands/list",
-    "@puggo-org/publish": "file:../../commands/publish",
-    "@puggo-org/run": "file:../../commands/run",
-    "@puggo-org/version": "file:../../commands/version",
+    "@pubbo/add": "file:../../commands/add",
+    "@pubbo/bootstrap": "file:../../commands/bootstrap",
+    "@pubbo/changed": "file:../../commands/changed",
+    "@pubbo/clean": "file:../../commands/clean",
+    "@pubbo/cli": "file:../cli",
+    "@pubbo/create": "file:../../commands/create",
+    "@pubbo/diff": "file:../../commands/diff",
+    "@pubbo/exec": "file:../../commands/exec",
+    "@pubbo/import": "file:../../commands/import",
+    "@pubbo/info": "file:../../commands/info",
+    "@pubbo/init": "file:../../commands/init",
+    "@pubbo/link": "file:../../commands/link",
+    "@pubbo/list": "file:../../commands/list",
+    "@pubbo/publish": "file:../../commands/publish",
+    "@pubbo/run": "file:../../commands/run",
+    "@pubbo/version": "file:../../commands/version",
     "import-local": "^2.0.0",
     "npmlog": "^4.1.2"
   }

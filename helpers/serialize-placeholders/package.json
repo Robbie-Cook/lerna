@@ -1,13 +1,13 @@
 {
-  "name": "@puggo-org-test/serialize-placeholders",
+  "name": "@pubbo-test/serialize-placeholders",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org-test/serialize-tempdir": "file:../serialize-tempdir",
-    "@puggo-org-test/serialize-windows-paths": "file:../serialize-windows-paths",
+    "@pubbo-test/serialize-tempdir": "file:../serialize-tempdir",
+    "@pubbo-test/serialize-windows-paths": "file:../serialize-windows-paths",
     "normalize-newline": "^3.0.0"
   }
 }

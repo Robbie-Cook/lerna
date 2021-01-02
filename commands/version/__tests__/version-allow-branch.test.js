@@ -10,13 +10,13 @@ const path = require("path");
 const execa = require("execa");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-git-sha"));
 
 describe("version --allow-branch", () => {
   const changeBranch = (cwd, name) => execa("git", ["checkout", "-B", name], { cwd });

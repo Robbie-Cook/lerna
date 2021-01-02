@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/changed",
+  "name": "@pubbo/changed",
   "version": "3.21.0",
   "description": "List local packages that have changed since the last tagged release",
   "keywords": [
@@ -32,9 +32,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/collect-updates": "file:../../utils/collect-updates",
-    "@puggo-org/command": "file:../../core/command",
-    "@puggo-org/listable": "file:../../utils/listable",
-    "@puggo-org/output": "file:../../utils/output"
+    "@pubbo/collect-updates": "file:../../utils/collect-updates",
+    "@pubbo/command": "file:../../core/command",
+    "@pubbo/listable": "file:../../utils/listable",
+    "@pubbo/output": "file:../../utils/output"
   }
 }

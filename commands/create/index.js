@@ -12,10 +12,10 @@ const npa = require("npm-package-arg");
 const pReduce = require("p-reduce");
 const slash = require("slash");
 
-const Command = require("@puggo-org/command");
-const ChildProcessUtilities = require("@puggo-org/child-process");
-const npmConf = require("@puggo-org/npm-conf");
-const ValidationError = require("@puggo-org/validation-error");
+const Command = require("@pubbo/command");
+const ChildProcessUtilities = require("@pubbo/child-process");
+const npmConf = require("@pubbo/npm-conf");
+const ValidationError = require("@pubbo/validation-error");
 const builtinNpmrc = require("./lib/builtin-npmrc");
 const catFile = require("./lib/cat-file");
 

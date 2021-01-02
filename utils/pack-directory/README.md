@@ -1,4 +1,4 @@
-# `@puggo-org/pack-directory`
+# `@pubbo/pack-directory`
 
 > Pack a directory into an npm package tarball
 

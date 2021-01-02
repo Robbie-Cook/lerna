@@ -1,10 +1,10 @@
 "use strict";
 
 jest.mock("@octokit/rest");
-jest.mock("@puggo-org/child-process");
+jest.mock("@pubbo/child-process");
 
 const Octokit = require("@octokit/rest");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 const { createGitHubClient, parseGitRepo } = require("../lib/github-client");
 
 childProcess.execSync.mockReturnValue("5.6.0");

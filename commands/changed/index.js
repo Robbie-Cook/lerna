@@ -1,9 +1,9 @@
 "use strict";
 
-const Command = require("@puggo-org/command");
-const collectUpdates = require("@puggo-org/collect-updates");
-const listable = require("@puggo-org/listable");
-const output = require("@puggo-org/output");
+const Command = require("@pubbo/command");
+const collectUpdates = require("@pubbo/collect-updates");
+const listable = require("@pubbo/listable");
+const output = require("@pubbo/output");
 
 module.exports = factory;
 

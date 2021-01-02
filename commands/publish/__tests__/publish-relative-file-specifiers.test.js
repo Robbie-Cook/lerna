@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@puggo-org/collect-updates");
+jest.unmock("@pubbo/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -21,13 +21,13 @@ const path = require("path");
 const writePkg = require("write-pkg");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const gitAdd = require("@puggo-org-test/git-add");
-const gitTag = require("@puggo-org-test/git-tag");
-const gitCommit = require("@puggo-org-test/git-commit");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const gitAdd = require("@pubbo-test/git-add");
+const gitTag = require("@pubbo-test/git-tag");
+const gitCommit = require("@pubbo-test/git-commit");
 
 // test command
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
 describe("relative 'file:' specifiers", () => {
   const setupChanges = async (cwd, pkgRoot = "packages") => {

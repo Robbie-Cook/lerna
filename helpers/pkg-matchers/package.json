@@ -1,12 +1,12 @@
 {
-  "name": "@puggo-org-test/pkg-matchers",
+  "name": "@pubbo-test/pkg-matchers",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org/package": "file:../../core/package",
+    "@pubbo/package": "file:../../core/package",
     "semver": "^6.2.0"
   }
 }

@@ -1,7 +1,7 @@
 "use strict";
 
 const path = require("path");
-const lernaCLI = require("@puggo-org/cli");
+const lernaCLI = require("@pubbo/cli");
 
 module.exports = commandRunner;
 

@@ -8,16 +8,16 @@ const path = require("path");
 const tempy = require("tempy");
 
 // partially mocked
-const ChildProcessUtilities = require("@puggo-org/child-process");
+const ChildProcessUtilities = require("@pubbo/child-process");
 const os = require("os");
 
 // normalize concurrency across different environments (localhost, CI, etc)
 jest.spyOn(os, "cpus").mockImplementation(() => new Array(42));
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const loggingOutput = require("@puggo-org-test/logging-output");
-const updateLernaConfig = require("@puggo-org-test/update-lerna-config");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const loggingOutput = require("@pubbo-test/logging-output");
+const updateLernaConfig = require("@pubbo-test/update-lerna-config");
 
 // file under test
 const Command = require("..");

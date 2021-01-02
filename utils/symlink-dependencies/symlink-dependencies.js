@@ -6,9 +6,9 @@ const pMap = require("p-map");
 const pMapSeries = require("p-map-series");
 const path = require("path");
 
-const createSymlink = require("@puggo-org/create-symlink");
-const resolveSymlink = require("@puggo-org/resolve-symlink");
-const symlinkBinary = require("@puggo-org/symlink-binary");
+const createSymlink = require("@pubbo/create-symlink");
+const resolveSymlink = require("@pubbo/resolve-symlink");
+const symlinkBinary = require("@pubbo/symlink-binary");
 
 module.exports = symlinkDependencies;
 

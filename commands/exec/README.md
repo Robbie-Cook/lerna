@@ -1,4 +1,4 @@
-# `@puggo-org/exec`
+# `@pubbo/exec`
 
 > Execute an arbitrary command in each package
 
@@ -29,7 +29,7 @@ $ lerna exec -- node \$LERNA_ROOT_PATH/scripts/some-script.js
 
 ## Options
 
-`lerna exec` accepts all [filter flags](https://www.npmjs.com/package/@puggo-org/filter-options).
+`lerna exec` accepts all [filter flags](https://www.npmjs.com/package/@pubbo/filter-options).
 
 ```sh
 $ lerna exec --scope my-component -- ls -la

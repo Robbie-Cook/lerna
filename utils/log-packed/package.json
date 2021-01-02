@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/log-packed",
+  "name": "@pubbo/log-packed",
   "version": "3.16.0",
   "description": "Log the result of npm pack --json",
   "keywords": [

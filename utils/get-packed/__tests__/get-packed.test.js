@@ -2,7 +2,7 @@
 
 const getPacked = require("..");
 
-describe("@puggo-org/get-packed", () => {
+describe("@pubbo/get-packed", () => {
   it("needs tests", () => {
     expect(getPacked).toBeDefined();
   });

@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/package",
+  "name": "@pubbo/package",
   "version": "3.16.0",
   "description": "Lerna's internal representation of a package",
   "keywords": [

@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const columnify = require("columnify");
 const path = require("path");
-const QueryGraph = require("@puggo-org/query-graph");
+const QueryGraph = require("@pubbo/query-graph");
 
 module.exports = listableFormat;
 

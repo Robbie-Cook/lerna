@@ -3,7 +3,7 @@
 const globby = require("globby");
 const pMap = require("p-map");
 const path = require("path");
-const ValidationError = require("@puggo-org/validation-error");
+const ValidationError = require("@pubbo/validation-error");
 
 module.exports.makeFileFinder = makeFileFinder;
 module.exports.makeSyncFileFinder = makeSyncFileFinder;

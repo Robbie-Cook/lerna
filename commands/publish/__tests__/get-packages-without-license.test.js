@@ -1,7 +1,7 @@
 "use strict";
 
-const Project = require("@puggo-org/project");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const Project = require("@pubbo/project");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const getPackagesWithoutLicense = require("../lib/get-packages-without-license");
 
 test("getPackagesWithoutLicense", async () => {

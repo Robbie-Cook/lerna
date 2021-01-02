@@ -2,8 +2,8 @@
 
 const npmlog = require("npmlog");
 const figgyPudding = require("figgy-pudding");
-const collectUpdates = require("@puggo-org/collect-updates");
-const filterPackages = require("@puggo-org/filter-packages");
+const collectUpdates = require("@pubbo/collect-updates");
+const filterPackages = require("@pubbo/filter-packages");
 
 module.exports = getFilteredPackages;
 

@@ -1,6 +1,6 @@
 "use strict";
 
-const Package = require("@puggo-org/package");
+const Package = require("@pubbo/package");
 
 // file under test
 const PackageGraph = require("..");

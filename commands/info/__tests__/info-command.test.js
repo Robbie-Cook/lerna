@@ -8,10 +8,10 @@ const envinfo = require("envinfo");
 envinfo.run.mockResolvedValue("MOCK_ENVINFO");
 
 // helper
-const output = require("@puggo-org/output");
+const output = require("@pubbo/output");
 
 // file under test
-const lernaInfo = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaInfo = require("@pubbo-test/command-runner")(require("../command"));
 
 it("outputs result of envinfo()", async () => {
   // project fixture is irrelevant, no actual changes are made

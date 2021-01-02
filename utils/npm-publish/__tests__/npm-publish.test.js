@@ -1,7 +1,7 @@
 "use strict";
 
-jest.mock("@puggo-org/run-lifecycle");
-jest.mock("@puggo-org/otplease");
+jest.mock("@pubbo/run-lifecycle");
+jest.mock("@pubbo/otplease");
 jest.mock("read-package-json");
 jest.mock("@evocateur/libnpmpublish");
 jest.mock("fs-extra");
@@ -10,17 +10,17 @@ jest.mock("fs-extra");
 const fs = require("fs-extra");
 const { publish } = require("@evocateur/libnpmpublish");
 const readJSON = require("read-package-json");
-const runLifecycle = require("@puggo-org/run-lifecycle");
-const otplease = require("@puggo-org/otplease");
+const runLifecycle = require("@pubbo/run-lifecycle");
+const otplease = require("@pubbo/otplease");
 
 // helpers
 const path = require("path");
-const Package = require("@puggo-org/package");
+const Package = require("@pubbo/package");
 
 // file under test
 const npmPublish = require("..");
 
-expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
+expect.extend(require("@pubbo-test/figgy-pudding-matchers"));
 
 describe("npm-publish", () => {
   const mockTarData = Buffer.from("MOCK");
@@ -29,8 +29,8 @@ describe("npm-publish", () => {
   fs.readFile.mockName("fs.readFile").mockResolvedValue(mockTarData);
   publish.mockName("@evocateur/libnpmpublish").mockResolvedValue();
   readJSON.mockName("read-package-json").mockImplementation((file, cb) => cb(null, mockManifest));
-  runLifecycle.mockName("@puggo-org/run-lifecycle").mockResolvedValue();
-  otplease.mockName("@puggo-org/otplease").mockImplementation((cb, opts) => Promise.resolve(cb(opts)));
+  runLifecycle.mockName("@pubbo/run-lifecycle").mockResolvedValue();
+  otplease.mockName("@pubbo/otplease").mockImplementation((cb, opts) => Promise.resolve(cb(opts)));
 
   const tarFilePath = "/tmp/test-1.10.100.tgz";
   const rootPath = path.normalize("/test");

@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/init",
+  "name": "@pubbo/init",
   "version": "3.21.0",
   "description": "Create a new Lerna repo or upgrade an existing repo to the current version of Lerna",
   "keywords": [
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../../core/child-process",
-    "@puggo-org/command": "file:../../core/command",
+    "@pubbo/child-process": "file:../../core/child-process",
+    "@pubbo/command": "file:../../core/command",
     "fs-extra": "^8.1.0",
     "p-map": "^2.1.0",
     "write-json-file": "^3.2.0"

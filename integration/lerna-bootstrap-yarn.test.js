@@ -3,8 +3,8 @@
 const globby = require("globby");
 const normalizePath = require("normalize-path");
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const cliRunner = require("@pubbo-test/cli-runner");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 test("lerna bootstrap --npm-client yarn", async () => {
   const cwd = await initFixture("lerna-bootstrap");

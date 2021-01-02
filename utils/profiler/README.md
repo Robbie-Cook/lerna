@@ -1,4 +1,4 @@
-# `@puggo-org/profiler`
+# `@pubbo/profiler`
 
 > An internal Lerna tool
 

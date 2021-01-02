@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 module.exports = gitCheckout;
 

@@ -1,12 +1,12 @@
 {
-  "name": "@puggo-org-test/logging-output",
+  "name": "@pubbo-test/logging-output",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org-test/multi-line-trim-right": "file:../multi-line-trim-right",
+    "@pubbo-test/multi-line-trim-right": "file:../multi-line-trim-right",
     "npmlog": "^4.1.2"
   }
 }

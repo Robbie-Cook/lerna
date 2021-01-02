@@ -1,11 +1,11 @@
 "use strict";
 
 jest.mock("temp-write");
-jest.mock("@puggo-org/child-process");
+jest.mock("@pubbo/child-process");
 
 const { EOL } = require("os");
 const { sync: mockWrite } = require("temp-write");
-const { exec: mockExec } = require("@puggo-org/child-process");
+const { exec: mockExec } = require("@pubbo/child-process");
 const gitCommit = require("../lib/git-commit");
 
 describe("git commit", () => {

@@ -1,12 +1,12 @@
 "use strict";
 
-const npmConf = require("@puggo-org/npm-conf");
+const npmConf = require("@pubbo/npm-conf");
 const mapToRegistry = require("..");
 
 // override value provided by set-npm-userconfig, ensuring blank slate
 process.env.npm_config_userconfig = __dirname;
 
-describe("@puggo-org/map-to-registry", () => {
+describe("@pubbo/map-to-registry", () => {
   describe("uri", () => {
     test("package name", () => {
       const config = npmConf();

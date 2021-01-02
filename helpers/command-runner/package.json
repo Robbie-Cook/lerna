@@ -1,11 +1,11 @@
 {
-  "name": "@puggo-org-test/command-runner",
+  "name": "@pubbo-test/command-runner",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org/cli": "file:../../core/cli"
+    "@pubbo/cli": "file:../../core/cli"
   }
 }

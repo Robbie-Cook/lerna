@@ -1,4 +1,4 @@
-# `@puggo-org/get-npm-exec-opts`
+# `@pubbo/get-npm-exec-opts`
 
 > An internal Lerna tool
 

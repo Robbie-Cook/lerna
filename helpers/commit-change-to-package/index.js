@@ -3,8 +3,8 @@
 const path = require("path");
 const loadJsonFile = require("load-json-file");
 const writeJsonFile = require("write-json-file");
-const gitAdd = require("@puggo-org-test/git-add");
-const gitCommit = require("@puggo-org-test/git-commit");
+const gitAdd = require("@pubbo-test/git-add");
+const gitCommit = require("@pubbo-test/git-commit");
 
 module.exports = commitChangeToPackage;
 

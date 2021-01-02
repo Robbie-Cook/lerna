@@ -5,7 +5,7 @@ const normalizePath = require("normalize-path");
 
 const WHACK_WACK = /(\\)([\S]*)/g;
 
-// expect.addSnapshotSerializer(require("@puggo-org-test/serialize-windows-paths"));
+// expect.addSnapshotSerializer(require("@pubbo-test/serialize-windows-paths"));
 module.exports = {
   test(val) {
     return typeof val === "string" && WHACK_WACK.test(val);

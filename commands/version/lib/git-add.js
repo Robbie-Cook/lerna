@@ -3,7 +3,7 @@
 const log = require("npmlog");
 const path = require("path");
 const slash = require("slash");
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 
 module.exports = gitAdd;
 

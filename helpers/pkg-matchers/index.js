@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const semver = require("semver");
-const Package = require("@puggo-org/package");
+const Package = require("@pubbo/package");
 
 exports.toDependOn = createDependencyMatcher("dependencies");
 exports.toDevDependOn = createDependencyMatcher("devDependencies");

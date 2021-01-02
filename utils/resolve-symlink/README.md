@@ -1,4 +1,4 @@
-# `@puggo-org/resolve-symlink`
+# `@pubbo/resolve-symlink`
 
 > An internal Lerna tool
 

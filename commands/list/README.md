@@ -1,4 +1,4 @@
-# `@puggo-org/list`
+# `@pubbo/list`
 
 > List local packages
 
@@ -34,7 +34,7 @@ In any case, you can always pass `--loglevel silent` to create pristine chains o
 - [`--toposort`](#--toposort)
 - [`--graph`](#--graph)
 
-`lerna ls` also respects all available [Filter Flags](https://www.npmjs.com/package/@puggo-org/filter-options).
+`lerna ls` also respects all available [Filter Flags](https://www.npmjs.com/package/@pubbo/filter-options).
 
 ### `--json`
 

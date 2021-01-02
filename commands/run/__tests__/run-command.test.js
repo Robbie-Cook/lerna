@@ -1,21 +1,21 @@
 "use strict";
 
-jest.mock("@puggo-org/npm-run-script");
+jest.mock("@pubbo/npm-run-script");
 
 const fs = require("fs-extra");
 const globby = require("globby");
 
 // mocked modules
-const npmRunScript = require("@puggo-org/npm-run-script");
-const output = require("@puggo-org/output");
+const npmRunScript = require("@pubbo/npm-run-script");
+const output = require("@pubbo/output");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const loggingOutput = require("@puggo-org-test/logging-output");
-const normalizeRelativeDir = require("@puggo-org-test/normalize-relative-dir");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const loggingOutput = require("@pubbo-test/logging-output");
+const normalizeRelativeDir = require("@pubbo-test/normalize-relative-dir");
 
 // file under test
-const lernaRun = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaRun = require("@pubbo-test/command-runner")(require("../command"));
 
 // assertion helpers
 const ranInPackagesStreaming = testDir =>

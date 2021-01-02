@@ -3,7 +3,7 @@
 const dedent = require("dedent");
 const log = require("npmlog");
 const yargs = require("yargs/yargs");
-const globalOptions = require("@puggo-org/global-options");
+const globalOptions = require("@pubbo/global-options");
 
 module.exports = lernaCLI;
 

@@ -9,14 +9,14 @@ jest.mock("../lib/remote-branch-exists");
 const path = require("path");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const getCommitMessage = require("@puggo-org-test/get-commit-message");
+const initFixture = require("@pubbo-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const getCommitMessage = require("@pubbo-test/get-commit-message");
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-git-sha"));
 
 test("publish --message %s", async () => {
   const cwd = await initFixture("normal");

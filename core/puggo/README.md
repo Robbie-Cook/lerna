@@ -3,5 +3,5 @@
 ## Usage
 
 ```sh
-npm i -D puggo
+npm i -D pubbo
 ```

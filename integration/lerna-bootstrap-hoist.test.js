@@ -3,8 +3,8 @@
 const fs = require("fs-extra");
 const globby = require("globby");
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const cliRunner = require("@pubbo-test/cli-runner");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 test("lerna bootstrap --hoist", async () => {
   const cwd = await initFixture("lerna-bootstrap");

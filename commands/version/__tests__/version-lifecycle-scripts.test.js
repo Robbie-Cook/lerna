@@ -7,14 +7,14 @@ jest.mock("../lib/is-behind-upstream");
 jest.mock("../lib/remote-branch-exists");
 
 // mocked modules
-const runLifecycle = require("@puggo-org/run-lifecycle");
+const runLifecycle = require("@pubbo/run-lifecycle");
 const loadJsonFile = require("load-json-file");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 describe("lifecycle scripts", () => {
   const npmLifecycleEvent = process.env.npm_lifecycle_event;

@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/filter-options",
+  "name": "@pubbo/filter-options",
   "version": "3.20.0",
   "description": "Options for lerna sub-commands that need filtering",
   "keywords": [
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/collect-updates": "file:../../utils/collect-updates",
-    "@puggo-org/filter-packages": "file:../../utils/filter-packages",
+    "@pubbo/collect-updates": "file:../../utils/collect-updates",
+    "@pubbo/filter-packages": "file:../../utils/filter-packages",
     "dedent": "^0.7.0",
     "figgy-pudding": "^3.5.1",
     "npmlog": "^4.1.2"

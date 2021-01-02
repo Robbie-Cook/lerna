@@ -2,7 +2,7 @@
 
 const path = require("path");
 const resolveFrom = require("resolve-from");
-const ValidationError = require("@puggo-org/validation-error");
+const ValidationError = require("@pubbo/validation-error");
 const deprecateConfig = require("./deprecate-config");
 const shallowExtend = require("./shallow-extend");
 

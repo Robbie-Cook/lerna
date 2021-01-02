@@ -1,12 +1,12 @@
 {
-  "name": "@puggo-org-test/copy-fixture",
+  "name": "@pubbo-test/copy-fixture",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@puggo-org-test/find-fixture": "file:../find-fixture",
+    "@pubbo-test/find-fixture": "file:../find-fixture",
     "fs-extra": "^8.1.0"
   }
 }

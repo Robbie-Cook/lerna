@@ -3,9 +3,9 @@
 const path = require("path");
 const pMap = require("p-map");
 const slash = require("slash");
-const Command = require("@puggo-org/command");
-const PackageGraph = require("@puggo-org/package-graph");
-const symlinkDependencies = require("@puggo-org/symlink-dependencies");
+const Command = require("@pubbo/command");
+const PackageGraph = require("@pubbo/package-graph");
+const symlinkDependencies = require("@pubbo/symlink-dependencies");
 
 module.exports = factory;
 

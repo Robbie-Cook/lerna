@@ -3,7 +3,7 @@
 const log = require("npmlog");
 const runScript = require("npm-lifecycle");
 const figgyPudding = require("figgy-pudding");
-const npmConf = require("@puggo-org/npm-conf");
+const npmConf = require("@pubbo/npm-conf");
 
 module.exports = runLifecycle;
 module.exports.createRunner = createRunner;
@@ -37,7 +37,7 @@ const LifecycleConfig = figgyPudding(
 );
 
 function runLifecycle(pkg, stage, _opts) {
-  // back-compat for @puggo-org/npm-conf instances
+  // back-compat for @pubbo/npm-conf instances
   // https://github.com/isaacs/proto-list/blob/27764cd/proto-list.js#L14
   if ("root" in _opts) {
     // eslint-disable-next-line no-param-reassign

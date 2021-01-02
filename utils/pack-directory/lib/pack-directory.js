@@ -6,9 +6,9 @@ const packlist = require("npm-packlist");
 const log = require("npmlog");
 const tar = require("tar");
 const tempWrite = require("temp-write");
-const getPacked = require("@puggo-org/get-packed");
-const Package = require("@puggo-org/package");
-const runLifecycle = require("@puggo-org/run-lifecycle");
+const getPacked = require("@pubbo/get-packed");
+const Package = require("@pubbo/package");
+const runLifecycle = require("@pubbo/run-lifecycle");
 
 module.exports = packDirectory;
 

@@ -1,11 +1,11 @@
-# `@puggo-org/collect-uncommitted`
+# `@pubbo/collect-uncommitted`
 
 > Check git working tree status and collect uncommitted changes for display
 
 ## Usage
 
 ```js
-const collectUncommitted = require("@puggo-org/collect-uncommitted");
+const collectUncommitted = require("@pubbo/collect-uncommitted");
 
 // values listed here are their defaults
 const options = {

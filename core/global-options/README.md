@@ -1,4 +1,4 @@
-# `@puggo-org/global-options`
+# `@pubbo/global-options`
 
 > Global options applicable to _every_ lerna sub-command
 

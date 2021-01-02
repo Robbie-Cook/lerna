@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const multiLineTrimRight = require("@puggo-org-test/multi-line-trim-right");
+const multiLineTrimRight = require("@pubbo-test/multi-line-trim-right");
 
 module.exports = loggingOutput;
 

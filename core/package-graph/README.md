@@ -1,4 +1,4 @@
-# `@puggo-org/package-graph`
+# `@pubbo/package-graph`
 
 > Lerna's internal representation of a package graph
 

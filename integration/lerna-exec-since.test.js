@@ -3,11 +3,11 @@
 const fs = require("fs-extra");
 const path = require("path");
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const commitChangeToPackage = require("@puggo-org-test/commit-change-to-package");
-const gitCheckout = require("@puggo-org-test/git-checkout");
-const gitTag = require("@puggo-org-test/git-tag");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const cliRunner = require("@pubbo-test/cli-runner");
+const commitChangeToPackage = require("@pubbo-test/commit-change-to-package");
+const gitCheckout = require("@pubbo-test/git-checkout");
+const gitTag = require("@pubbo-test/git-tag");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 const LERNA_PACKAGE_NAME = process.platform === "win32" ? "%LERNA_PACKAGE_NAME%" : "$LERNA_PACKAGE_NAME";
 

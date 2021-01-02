@@ -1,8 +1,8 @@
 "use strict";
 
 const execa = require("execa");
-const childProcess = require("@puggo-org/child-process");
-const cloneFixture = require("@puggo-org-test/clone-fixture")(__dirname);
+const childProcess = require("@pubbo/child-process");
+const cloneFixture = require("@pubbo-test/clone-fixture")(__dirname);
 const gitPush = require("../lib/git-push");
 
 async function listRemoteTags(cwd) {

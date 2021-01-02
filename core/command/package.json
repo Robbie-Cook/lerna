@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/command",
+  "name": "@pubbo/command",
   "version": "3.21.0",
   "description": "Lerna's internal base class for commands",
   "keywords": [
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../child-process",
-    "@puggo-org/package-graph": "file:../package-graph",
-    "@puggo-org/project": "file:../project",
-    "@puggo-org/validation-error": "file:../validation-error",
-    "@puggo-org/write-log-file": "file:../../utils/write-log-file",
+    "@pubbo/child-process": "file:../child-process",
+    "@pubbo/package-graph": "file:../package-graph",
+    "@pubbo/project": "file:../project",
+    "@pubbo/validation-error": "file:../validation-error",
+    "@pubbo/write-log-file": "file:../../utils/write-log-file",
     "clone-deep": "^4.0.1",
     "dedent": "^0.7.0",
     "execa": "^1.0.0",

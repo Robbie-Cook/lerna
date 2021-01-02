@@ -3,8 +3,8 @@
 const execa = require("execa");
 const fileUrl = require("file-url");
 const tempy = require("tempy");
-const gitInit = require("@puggo-org-test/git-init");
-const initFactory = require("@puggo-org-test/init-fixture");
+const gitInit = require("@pubbo-test/git-init");
+const initFactory = require("@pubbo-test/init-fixture");
 
 module.exports = cloneFixture;
 

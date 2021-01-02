@@ -10,8 +10,8 @@ const pMap = require("p-map");
 const path = require("path");
 const writeJsonFile = require("write-json-file");
 
-const ValidationError = require("@puggo-org/validation-error");
-const Package = require("@puggo-org/package");
+const ValidationError = require("@pubbo/validation-error");
+const Package = require("@pubbo/package");
 const applyExtends = require("./lib/apply-extends");
 const deprecateConfig = require("./lib/deprecate-config");
 const { makeFileFinder, makeSyncFileFinder } = require("./lib/make-file-finder");

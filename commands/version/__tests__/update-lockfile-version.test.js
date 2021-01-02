@@ -7,8 +7,8 @@ const fs = require("fs-extra");
 const loadJsonFile = require("load-json-file");
 
 // helpers
-const { getPackages } = require("@puggo-org/project");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const { getPackages } = require("@pubbo/project");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 const { updateLockfileVersion } = require("../lib/update-lockfile-version");
 

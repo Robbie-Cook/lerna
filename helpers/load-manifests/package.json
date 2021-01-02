@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org-test/load-manifests",
+  "name": "@pubbo-test/load-manifests",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

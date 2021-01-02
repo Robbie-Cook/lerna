@@ -1,8 +1,8 @@
 "use strict";
 
-jest.mock("@puggo-org/child-process");
+jest.mock("@pubbo/child-process");
 
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 const describeRef = require("../lib/describe-ref");
 
 const DEFAULT_ARGS = ["describe", "--always", "--long", "--dirty", "--first-parent"];

@@ -1,4 +1,4 @@
-# `@puggo-org/prompt`
+# `@pubbo/prompt`
 
 > An internal Lerna tool
 

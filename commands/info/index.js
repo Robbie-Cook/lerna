@@ -1,7 +1,7 @@
 "use strict";
 
-const Command = require("@puggo-org/command");
-const output = require("@puggo-org/output");
+const Command = require("@pubbo/command");
+const output = require("@pubbo/output");
 const envinfo = require("envinfo");
 
 module.exports = factory;

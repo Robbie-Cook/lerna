@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/collect-uncommitted",
+  "name": "@pubbo/collect-uncommitted",
   "version": "3.16.5",
   "description": "Collect uncommitted changes to working tree for display in error messages",
   "keywords": [
@@ -33,7 +33,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/child-process": "file:../../core/child-process",
+    "@pubbo/child-process": "file:../../core/child-process",
     "chalk": "^2.3.1",
     "figgy-pudding": "^3.5.1",
     "npmlog": "^4.1.2"

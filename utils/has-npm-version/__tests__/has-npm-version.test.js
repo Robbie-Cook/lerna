@@ -1,8 +1,8 @@
 "use strict";
 
-jest.mock("@puggo-org/child-process");
+jest.mock("@pubbo/child-process");
 
-const childProcess = require("@puggo-org/child-process");
+const childProcess = require("@pubbo/child-process");
 const hasNpmVersion = require("../lib/has-npm-version");
 
 childProcess.execSync.mockReturnValue("5.6.0");

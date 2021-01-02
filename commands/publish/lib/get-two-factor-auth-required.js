@@ -1,6 +1,6 @@
 "use strict";
 
-const ValidationError = require("@puggo-org/validation-error");
+const ValidationError = require("@pubbo/validation-error");
 const FetchConfig = require("./fetch-config");
 const getProfileData = require("./get-profile-data");
 

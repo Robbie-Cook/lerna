@@ -1,4 +1,4 @@
-# `@puggo-org/package`
+# `@pubbo/package`
 
 > Lerna's internal representation of a package
 

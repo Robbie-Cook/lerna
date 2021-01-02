@@ -1,16 +1,16 @@
 "use strict";
 
 // mocked modules
-const collectUpdates = require("@puggo-org/collect-updates");
-const output = require("@puggo-org/output");
+const collectUpdates = require("@pubbo/collect-updates");
+const output = require("@pubbo/output");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const loggingOutput = require("@puggo-org-test/logging-output");
-const updateLernaConfig = require("@puggo-org-test/update-lerna-config");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const loggingOutput = require("@pubbo-test/logging-output");
+const updateLernaConfig = require("@pubbo-test/update-lerna-config");
 
 // file under test
-const lernaChanged = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaChanged = require("@pubbo-test/command-runner")(require("../command"));
 
 // remove quotes around top-level strings
 expect.addSnapshotSerializer({
@@ -24,7 +24,7 @@ expect.addSnapshotSerializer({
 });
 
 // normalize temp directory paths in snapshots
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-tempdir"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-tempdir"));
 
 describe("ChangedCommand", () => {
   let cwd;

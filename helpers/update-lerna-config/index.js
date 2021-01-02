@@ -1,7 +1,7 @@
 "use strict";
 
 // eslint-disable-next-line import/no-extraneous-dependencies, node/no-extraneous-require
-const Project = require("@puggo-org/project");
+const Project = require("@pubbo/project");
 
 module.exports = updateLernaConfig;
 

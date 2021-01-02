@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@puggo-org/child-process");
+jest.mock("@pubbo/child-process");
 
 // mocked modules
-const ChildProcessUtilities = require("@puggo-org/child-process");
+const ChildProcessUtilities = require("@pubbo/child-process");
 
 // file under test
 const npmRunScript = require("..");

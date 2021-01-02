@@ -1,5 +1,5 @@
 {
-  "name": "@puggo-org/symlink-binary",
+  "name": "@pubbo/symlink-binary",
   "version": "3.17.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,8 +31,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@puggo-org/create-symlink": "file:../create-symlink",
-    "@puggo-org/package": "file:../../core/package",
+    "@pubbo/create-symlink": "file:../create-symlink",
+    "@pubbo/package": "file:../../core/package",
     "fs-extra": "^8.1.0",
     "p-map": "^2.1.0"
   }

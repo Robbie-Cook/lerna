@@ -1,6 +1,6 @@
 "use strict";
 
-const findFixture = require("@puggo-org-test/find-fixture");
+const findFixture = require("@pubbo-test/find-fixture");
 const fs = require("fs-extra");
 
 module.exports = copyFixture;

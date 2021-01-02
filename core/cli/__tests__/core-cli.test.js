@@ -1,8 +1,8 @@
 "use strict";
 
-const ValidationError = require("@puggo-org/validation-error");
-const loggingOutput = require("@puggo-org-test/logging-output");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const ValidationError = require("@pubbo/validation-error");
+const loggingOutput = require("@pubbo-test/logging-output");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 const coreCLI = require("..");
 
 function prepare(cwd) {

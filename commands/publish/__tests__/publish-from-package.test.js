@@ -17,20 +17,20 @@ const path = require("path");
 
 // mocked or stubbed modules
 const writePkg = require("write-pkg");
-const npmPublish = require("@puggo-org/npm-publish");
-const PromptUtilities = require("@puggo-org/prompt");
-const output = require("@puggo-org/output");
-const checkWorkingTree = require("@puggo-org/check-working-tree");
+const npmPublish = require("@pubbo/npm-publish");
+const PromptUtilities = require("@pubbo/prompt");
+const output = require("@pubbo/output");
+const checkWorkingTree = require("@pubbo/check-working-tree");
 const getUnpublishedPackages = require("../lib/get-unpublished-packages");
 
 // helpers
-const loggingOutput = require("@puggo-org-test/logging-output");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const loggingOutput = require("@pubbo-test/logging-output");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
-const lernaPublish = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaPublish = require("@pubbo-test/command-runner")(require("../command"));
 
-expect.extend(require("@puggo-org-test/figgy-pudding-matchers"));
+expect.extend(require("@pubbo-test/figgy-pudding-matchers"));
 
 describe("publish from-package", () => {
   it("publishes unpublished packages", async () => {

@@ -7,11 +7,11 @@ const path = require("path");
 const getManifest = require("@evocateur/pacote/manifest");
 const semver = require("semver");
 
-const Command = require("@puggo-org/command");
-const npmConf = require("@puggo-org/npm-conf");
-const bootstrap = require("@puggo-org/bootstrap");
-const ValidationError = require("@puggo-org/validation-error");
-const { getFilteredPackages } = require("@puggo-org/filter-options");
+const Command = require("@pubbo/command");
+const npmConf = require("@pubbo/npm-conf");
+const bootstrap = require("@pubbo/bootstrap");
+const ValidationError = require("@pubbo/validation-error");
+const { getFilteredPackages } = require("@pubbo/filter-options");
 const getRangeToReference = require("./lib/get-range-to-reference");
 
 module.exports = factory;

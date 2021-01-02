@@ -1,4 +1,4 @@
-# `@puggo-org/filter-packages`
+# `@pubbo/filter-packages`
 
 > An internal Lerna tool
 

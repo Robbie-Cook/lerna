@@ -1,4 +1,4 @@
-# `@puggo-org/bootstrap`
+# `@pubbo/bootstrap`
 
 > Link local packages together and install remaining package dependencies
 
@@ -20,7 +20,7 @@ When run, this command will:
 3. `npm run prepublish` in all bootstrapped packages (unless `--ignore-prepublish` is passed).
 4. `npm run prepare` in all bootstrapped packages.
 
-`lerna bootstrap` accepts all [filter flags](https://www.npmjs.com/package/@puggo-org/filter-options).
+`lerna bootstrap` accepts all [filter flags](https://www.npmjs.com/package/@pubbo/filter-options).
 
 Pass extra arguments to npm client by placing them after `--`:
 

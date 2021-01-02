@@ -1,14 +1,14 @@
 "use strict";
 
 // actually _run_ the lifecycles, gorrammit
-jest.unmock("@puggo-org/run-lifecycle");
+jest.unmock("@pubbo/run-lifecycle");
 
 const path = require("path");
 const normalizePath = require("normalize-path");
 const { printObjectProperties } = require("pretty-format/build/collections");
-const npmConf = require("@puggo-org/npm-conf");
-const { getPackages } = require("@puggo-org/project");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const npmConf = require("@pubbo/npm-conf");
+const { getPackages } = require("@pubbo/project");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 const packDirectory = require("..");
 

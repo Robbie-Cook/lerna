@@ -1,8 +1,8 @@
 "use strict";
 
-const describeRef = require("@puggo-org/describe-ref");
-const ValidationError = require("@puggo-org/validation-error");
-const collectUncommitted = require("@puggo-org/collect-uncommitted");
+const describeRef = require("@pubbo/describe-ref");
+const ValidationError = require("@pubbo/validation-error");
+const collectUncommitted = require("@pubbo/collect-uncommitted");
 
 module.exports = checkWorkingTree;
 module.exports.mkThrowIfUncommitted = mkThrowIfUncommitted;

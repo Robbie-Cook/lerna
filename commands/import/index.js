@@ -5,11 +5,11 @@ const fs = require("fs-extra");
 const path = require("path");
 const pMapSeries = require("p-map-series");
 
-const ChildProcessUtilities = require("@puggo-org/child-process");
-const Command = require("@puggo-org/command");
-const PromptUtilities = require("@puggo-org/prompt");
-const ValidationError = require("@puggo-org/validation-error");
-const pulseTillDone = require("@puggo-org/pulse-till-done");
+const ChildProcessUtilities = require("@pubbo/child-process");
+const Command = require("@pubbo/command");
+const PromptUtilities = require("@pubbo/prompt");
+const ValidationError = require("@pubbo/validation-error");
+const pulseTillDone = require("@pubbo/pulse-till-done");
 
 module.exports = factory;
 

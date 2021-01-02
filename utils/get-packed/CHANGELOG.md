@@ -30,4 +30,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Add [@puggo-org](https://github.com/lerna)/get-packed ([8675c8f](https://github.com/lerna/lerna/commit/8675c8f))
+* Add [@pubbo](https://github.com/lerna)/get-packed ([8675c8f](https://github.com/lerna/lerna/commit/8675c8f))

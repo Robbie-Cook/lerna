@@ -5,14 +5,14 @@ const globby = require("globby");
 const path = require("path");
 const os = require("os");
 
-const cliRunner = require("@puggo-org-test/cli-runner");
-const commitChangeToPackage = require("@puggo-org-test/commit-change-to-package");
-const cloneFixture = require("@puggo-org-test/clone-fixture")(
+const cliRunner = require("@pubbo-test/cli-runner");
+const commitChangeToPackage = require("@pubbo-test/commit-change-to-package");
+const cloneFixture = require("@pubbo-test/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-changelog"));
 
 const env = {
   // never actually upload when calling `npm publish`

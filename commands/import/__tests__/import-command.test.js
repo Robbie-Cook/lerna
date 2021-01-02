@@ -1,6 +1,6 @@
 "use strict";
 
-jest.mock("@puggo-org/prompt");
+jest.mock("@pubbo/prompt");
 
 const execa = require("execa");
 const fs = require("fs-extra");
@@ -8,17 +8,17 @@ const path = require("path");
 const pathExists = require("path-exists");
 
 // mocked or stubbed modules
-const PromptUtilities = require("@puggo-org/prompt");
+const PromptUtilities = require("@pubbo/prompt");
 
 // helpers
-const initNamedFixture = require("@puggo-org-test/init-named-fixture")(__dirname);
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const gitAdd = require("@puggo-org-test/git-add");
-const gitCommit = require("@puggo-org-test/git-commit");
-const updateLernaConfig = require("@puggo-org-test/update-lerna-config");
+const initNamedFixture = require("@pubbo-test/init-named-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const gitAdd = require("@pubbo-test/git-add");
+const gitCommit = require("@pubbo-test/git-commit");
+const updateLernaConfig = require("@pubbo-test/update-lerna-config");
 
 // file under test
-const lernaImport = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaImport = require("@pubbo-test/command-runner")(require("../command"));
 
 // assertion helpers
 const lastCommitInDir = cwd => execa.stdout("git", ["log", "-1", "--format=%s"], { cwd });

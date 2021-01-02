@@ -1,11 +1,11 @@
-# `@puggo-org/rimraf-dir`
+# `@pubbo/rimraf-dir`
 
 > Run rimraf on a directory in a subprocess to hack around slowness
 
 ## Usage
 
 ```js
-const rimrafDir = require("@puggo-org/rimraf-dir");
+const rimrafDir = require("@pubbo/rimraf-dir");
 
 rimrafDir("/path/to/directory").then(removedDir => {
   console.log("removed", removedDir);

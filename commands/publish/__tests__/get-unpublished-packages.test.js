@@ -6,9 +6,9 @@ jest.mock("@evocateur/pacote/packument");
 const getPackument = require("@evocateur/pacote/packument");
 
 // helpers
-const PackageGraph = require("@puggo-org/package-graph");
-const { getPackages } = require("@puggo-org/project");
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const PackageGraph = require("@pubbo/package-graph");
+const { getPackages } = require("@pubbo/project");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // file under test
 const getUnpublishedPackages = require("../lib/get-unpublished-packages");

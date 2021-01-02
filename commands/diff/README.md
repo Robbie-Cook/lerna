@@ -1,4 +1,4 @@
-# `@puggo-org/diff`
+# `@pubbo/diff`
 
 > Diff all packages or a single package since the last release
 

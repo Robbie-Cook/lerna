@@ -1,4 +1,4 @@
-# `@puggo-org/command`
+# `@pubbo/command`
 
 > Lerna's internal base class for commands
 

@@ -1,9 +1,9 @@
 "use strict";
 
 const normalizeNewline = require("normalize-newline");
-const gitSHA = require("@puggo-org-test/serialize-git-sha");
+const gitSHA = require("@pubbo-test/serialize-git-sha");
 
-// expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
+// expect.addSnapshotSerializer(require("@pubbo-test/serialize-changelog"));
 module.exports = {
   serialize(str) {
     return gitSHA

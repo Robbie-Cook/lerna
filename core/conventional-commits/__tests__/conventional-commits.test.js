@@ -2,20 +2,20 @@
 
 const fs = require("fs-extra");
 const path = require("path");
-const { getPackages } = require("@puggo-org/project");
+const { getPackages } = require("@pubbo/project");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
-const gitAdd = require("@puggo-org-test/git-add");
-const gitCommit = require("@puggo-org-test/git-commit");
-const gitTag = require("@puggo-org-test/git-tag");
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
+const gitAdd = require("@pubbo-test/git-add");
+const gitCommit = require("@pubbo-test/git-commit");
+const gitTag = require("@pubbo-test/git-tag");
 
 // file under test
 const { recommendVersion, updateChangelog } = require("..");
 const getChangelogConfig = require("../lib/get-changelog-config");
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@puggo-org-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@pubbo-test/serialize-changelog"));
 
 describe("conventional-commits", () => {
   describe("recommendVersion()", () => {

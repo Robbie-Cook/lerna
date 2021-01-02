@@ -1,7 +1,7 @@
 "use strict";
 
 const figgyPudding = require("figgy-pudding");
-const PackageGraph = require("@puggo-org/package-graph");
+const PackageGraph = require("@pubbo/package-graph");
 
 const QueryGraphConfig = figgyPudding({
   "graph-type": {},

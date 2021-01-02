@@ -10,15 +10,15 @@ jest.mock("../lib/is-behind-upstream");
 jest.mock("../lib/remote-branch-exists");
 
 // mocked modules
-const githubClient = require("@puggo-org/github-client").client;
-const gitlabClient = require("@puggo-org/gitlab-client")();
-const { recommendVersion } = require("@puggo-org/conventional-commits");
+const githubClient = require("@pubbo/github-client").client;
+const gitlabClient = require("@pubbo/gitlab-client")();
+const { recommendVersion } = require("@pubbo/conventional-commits");
 
 // helpers
-const initFixture = require("@puggo-org-test/init-fixture")(__dirname);
+const initFixture = require("@pubbo-test/init-fixture")(__dirname);
 
 // test command
-const lernaVersion = require("@puggo-org-test/command-runner")(require("../command"));
+const lernaVersion = require("@pubbo-test/command-runner")(require("../command"));
 
 describe.each([
   ["github", githubClient],

@@ -1,6 +1,6 @@
 "use strict";
 
-const { collectPackages, getPackagesForOption } = jest.requireActual("@puggo-org/collect-updates");
+const { collectPackages, getPackagesForOption } = jest.requireActual("@pubbo/collect-updates");
 
 // collectUpdates.setUpdated(cwd, packageNames...)
 // otherwise, enables everything

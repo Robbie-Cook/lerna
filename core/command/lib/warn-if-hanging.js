@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const ChildProcessUtilities = require("@puggo-org/child-process");
+const ChildProcessUtilities = require("@pubbo/child-process");
 
 module.exports = warnIfHanging;
 
