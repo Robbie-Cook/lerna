@@ -58,7 +58,7 @@ Below is a (very detailed) `lerna.json` file displaying most of the different op
   "npmClient": "yarn",
   "useWorkspaces": true,
   "npmClientArgs": ["--production", "--no-optional"],
-  "version": "3.22.1",
+  "version": "0.0.0",
   "publishConfig": {
     "directory": "dist"
   }
