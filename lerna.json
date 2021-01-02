@@ -13,7 +13,7 @@
       "allowBranch": "master",
       "conventionalCommits": true,
       "exact": true,
-      "gitRemote": "upstream",
+      "gitRemote": "origin",
       "message": "chore(release): %s"
     }
   },
@@ -22,5 +22,5 @@
     "**/__tests__/**",
     "**/*.md"
   ],
-  "version": "3.22.1"
+  "version": "0.0.0"
 }
